@@ -1,10 +1,11 @@
 import React from 'react';
+import HeroImage from './components/HeroImage';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello.</h1>
+      <HeroImage />
     </div>
   );
 }
