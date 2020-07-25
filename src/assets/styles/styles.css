@@ -1,3 +1,7 @@
+.HeroImage-img {
+  max-width: 100%; 
+}
+
 .HeroImage-text {
   color: orange;
 }
