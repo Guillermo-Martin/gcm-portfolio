@@ -1,33 +1,25 @@
-/* .HeroImage-container {
-  position image relative to its normal position
-  position: relative;
-  text-align: center;
-} */
+.HeroImage-container {
+  display: flex;
+}
 
 .HeroImage-img {
   background: url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   height: 62rem;
+  width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-
-/* .HeroImage-text {
+.HeroImage-text {
+  margin-top: 15rem;
+  padding-left: 3rem;
   color: white;
-  border: 5px solid white;
-  position text relative to nearest positioned ancestor
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  manipulate text position on image
-  transform: translate(-75%, -100%);
-} */
+}
 
 .HeroImage-text-name {
   font-size: 10rem;
   text-align: left;
-  white-space: nowrap;
   margin-bottom: 0;
 }
 
