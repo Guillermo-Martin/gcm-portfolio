@@ -3,7 +3,7 @@ import './../assets/styles/styles.css';
 
 function HeroImage() {
   return (
-    <div>
+    <div className="HeroImage-container">
       {/* image from https://unsplash.com/.  Photo taken by Tim Trad (https://unsplash.com/@timtrad) */}
     
       <img 

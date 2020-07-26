@@ -1,7 +1,19 @@
+.HeroImage-container {
+  /* position image relative to its normal position */
+  position: relative;
+  text-align: center;
+}
+
 .HeroImage-img {
   max-width: 100%; 
 }
 
 .HeroImage-text {
-  color: orange;
+  color: white;
+  /* position text relative to nearest positioned ancestor */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* manipulate text position on image */
+  transform: translate(-100%, -50%);
 }
