@@ -47,6 +47,14 @@
   height: 31rem;
 }
 
-.Section-container {
+.About-row {
+  height: 100%;
+}
+
+.About-img {
   border: 2px solid green;
+}
+
+.About-col {
+  border: 2px solid orange;
 }
