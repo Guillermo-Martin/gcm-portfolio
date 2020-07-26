@@ -41,3 +41,7 @@
   width: 75%;
   justify-content: flex-end;
 }
+
+.About-container {
+  border: 3px solid blue;
+}

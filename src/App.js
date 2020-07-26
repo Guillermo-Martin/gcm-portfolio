@@ -1,13 +1,14 @@
 import React from 'react';
 import HeroImage from './components/HeroImage';
-import About from './components/About';
+import Section from './components/Section';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <HeroImage />
-      <About />
+      <Section />
+      <Section />
     </div>
   );
 }
