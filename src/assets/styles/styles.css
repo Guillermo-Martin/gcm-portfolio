@@ -44,4 +44,9 @@
 
 .About-container {
   border: 3px solid blue;
+  height: 31rem;
+}
+
+.Section-container {
+  border: 2px solid green;
 }
