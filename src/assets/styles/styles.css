@@ -15,5 +15,19 @@
   top: 50%;
   left: 50%;
   /* manipulate text position on image */
-  transform: translate(-100%, -50%);
+  transform: translate(-75%, -100%);
+}
+
+.HeroImage-text-name {
+  font-size: 10rem;
+  text-align: left;
+  /* prevent text from wrapping */
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.HeroImage-text-intro {
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 0;
 }

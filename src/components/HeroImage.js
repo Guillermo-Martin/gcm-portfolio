@@ -13,8 +13,8 @@ function HeroImage() {
       />
 
       <div className="HeroImage-text">
-        <h1>Lorem ipsum</h1>
-        <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h2>
+        <h1 className="HeroImage-text-name">Lorem ipsum</h1>
+        <h2 className="HeroImage-text-intro">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h2>
       </div>
     </div>
   );
