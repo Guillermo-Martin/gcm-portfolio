@@ -19,8 +19,11 @@ function Projects() {
           <ProjectCard />
           <ProjectCard />
         </Row>
+  
+        <a href="#" className="Projects-link">Tellus mauris.</a>
+        
       </Container>
-      <a href="#" >Tellus mauris.</a>
+      
     </div>
   );
 }

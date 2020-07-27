@@ -44,6 +44,7 @@
 
 .About-container {
   height: 31rem;
+  border: 2px solid black;
 }
 
 .About-row {
@@ -88,4 +89,8 @@
 .Projects-h1 {
   font-size: 6rem;
   margin: 3rem;
+}
+
+.Projects-link {
+  margin: 90px;
 }
