@@ -80,4 +80,6 @@
 
 .Projects-row {
   border: 3px solid orange;
+  display: flex;
+  justify-content: space-evenly;
 }

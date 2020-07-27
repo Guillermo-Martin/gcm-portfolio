@@ -13,9 +13,8 @@ function Projects() {
       <p>
         Quam id leo in vitae turpis massa. Convallis aenean et tortor at risus viverra adipiscing. Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.
       </p>
-      <Container fluid>
+      <Container>
         <Row className="Projects-row">
-          <p>This is a row.</p>
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
