@@ -98,3 +98,12 @@
 .Contact-container {
   border: 2px solid orangered;
 }
+
+.Contact-header {
+  font-size: 6rem;
+  margin: 3rem;
+}
+
+.Contact-icons {
+  margin-top: 2rem;
+}

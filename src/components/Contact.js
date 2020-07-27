@@ -1,13 +1,15 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 function Contact() {
   return(
     <Container className="Contact-container">
       <div>
-        <h1>This is the Contact section.</h1>
+        <h2 className="Contact-header">This is the Contact section.</h2>
         <p>Diam vulputate ut pharetra sit amet aliquam id.</p>
-        <p>Icons will go here.</p>
+        <Button>Button</Button>
+        <p className="Contact-icons">Icons will go here.</p>
       </div>
     </Container>
     
