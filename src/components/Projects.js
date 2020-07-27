@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ProjectCard from './../components/Card';
 
 
 function Projects() {
@@ -14,6 +15,7 @@ function Projects() {
       <Container fluid>
         <Row className="Projects-row">
           <p>This is a row.</p>
+          <ProjectCard />
         </Row>
       </Container>
     </div>
