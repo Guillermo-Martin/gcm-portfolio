@@ -43,7 +43,7 @@
 }
 
 .About-container {
-  height: 31rem;
+  /* height: 31rem; */
   border: 2px solid black;
 }
 
@@ -73,6 +73,11 @@
 .About-col-p {
   /* border: 3px solid red; */
   padding-right: 50%;
+}
+
+.About-header {
+  font-size: 6rem;
+  margin: 3rem;
 }
 
 .Projects-container {
