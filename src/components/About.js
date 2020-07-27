@@ -14,6 +14,7 @@ function About() {
         </Col>
         
         <Col className="About-col-text">
+            
             <p className="About-col-p">
               Tristique senectus et netus et. Suspendisse sed nisi lacus sed viverra tellus in hac. Purus in massa tempor nec feugiat. Diam vulputate ut pharetra sit amet aliquam id. Blandit volutpat maecenas volutpat blandit aliquam etiam. Quis varius quam quisque id.
               <br />
