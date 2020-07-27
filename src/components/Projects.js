@@ -9,7 +9,7 @@ import ProjectCard from './../components/Card';
 function Projects() {
   return(
     <div className="Projects-container">
-      <h1>This is the projects section.</h1>
+      <h1 className="Projects-h1">This is the projects section.</h1>
       <p>
         Quam id leo in vitae turpis massa. Convallis aenean et tortor at risus viverra adipiscing. Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.
       </p>
