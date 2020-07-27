@@ -8,7 +8,7 @@ function About() {
   return(
     <Container fluid className="About-container">
       <Row className="About-row">
-        <Col className="About-col">
+        <Col className="About-col-img">
           <Image roundedCircle src="https://randomuser.me/api/portraits/lego/5.jpg" className="About-img" /> 
         </Col>
         

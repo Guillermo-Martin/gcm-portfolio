@@ -51,8 +51,16 @@
   height: 100%;
 }
 
+.About-col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .About-img {
   border: 2px solid green;
+  
 }
 
 .About-col {
