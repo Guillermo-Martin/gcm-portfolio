@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+
 import ProjectCard from './../components/Card';
 
 
@@ -15,9 +16,9 @@ function Projects() {
       </p>
       <Container>
         <Row className="Projects-row">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard /> 
         </Row>
   
         <a href="#" className="Projects-link">Tellus mauris.</a>
