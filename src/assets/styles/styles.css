@@ -112,3 +112,11 @@
 .Contact-icons {
   margin-top: 2rem;
 }
+
+.Footer {
+  border: 3px solid purple;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
