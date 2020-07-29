@@ -1,22 +1,18 @@
 import React from 'react';
-import HeroImage from './components/HeroImage';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import HomePage from './components/HomePage';
 import ProjectsPage from './components/ProjectsPage';
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <HeroImage />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      <ProjectsPage />
+    <Router>
+      <div className="App">
+        <HomePage />
+        {/* <Route exact path='/projects' component={ProjectsPage} /> */}
     </div>
+    </Router>
+    
   );
 }
 

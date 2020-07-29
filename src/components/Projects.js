@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-
+import { Link } from 'react-router-dom';
 import ProjectCard from './../components/Card';
 
 
@@ -21,8 +21,8 @@ function Projects() {
             <ProjectCard /> 
         </Row>
   
-        <a href="#" className="Projects-link">Tellus mauris.</a>
-        
+        {/* <a href="#" className="Projects-link">Tellus mauris.</a> */}
+        <Link to='/projects'>Tellus mauris.</Link>
       </Container>
       
     </div>
