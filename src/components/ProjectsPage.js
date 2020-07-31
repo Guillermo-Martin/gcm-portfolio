@@ -6,13 +6,21 @@ import ImageCarousel from './ImageCarousel';
 
 
 function ProjectsPage() {
-  return(
+  return (
     <div className="ProjectsPage-container">
       <HeroImage />
       <h1>Excepteur sint.</h1>
       <h2>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</h2>
       <Container fluid>
         <Row>
+          <ImageCarousel />
+        </Row>
+      </Container>
+      <h1>Excepteur sint.</h1>
+      <h2>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</h2>
+      <Container fluid>
+        <Row>
+          
           <ImageCarousel />
         </Row>
       </Container>

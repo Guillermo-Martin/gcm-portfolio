@@ -5,9 +5,9 @@ import Container from 'react-bootstrap/Container'
 function ImageCarousel() {
   return (
     <div>
-      <Container>
-        <Carousel>
-          <Carousel.Item className="Carousel-item">
+      <Container fluid className="ImageCarousel-container">
+        <Carousel interval={null}>
+          <Carousel.Item>
             <img
               className="d-block w-100"
               src="https://images.unsplash.com/photo-1526436177729-efd2fa1172a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2304&q=80"

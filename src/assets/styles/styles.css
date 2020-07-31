@@ -124,3 +124,7 @@
 .ProjectsPage-container {
   border: 3px solid black;
 }
+
+.ImageCarousel-container {
+  width: 50%;
+}
