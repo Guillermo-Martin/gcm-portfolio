@@ -9,18 +9,17 @@ function ProjectsPage() {
   return (
     <div className="ProjectsPage-container">
       <HeroImage />
-      <h1>Excepteur sint.</h1>
-      <h2>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</h2>
-      <Container fluid>
+      <h1 className="ProjectsPage-header">Excepteur sint.</h1>
+      <p>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</p>
+      <Container fluid className="ProjectsPage-row">
         <Row>
           <ImageCarousel />
         </Row>
       </Container>
-      <h1>Excepteur sint.</h1>
-      <h2>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</h2>
-      <Container fluid>
-        <Row>
-          
+      <h1 className="ProjectsPage-header">Excepteur sint.</h1>
+      <p>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</p>
+      <Container fluid className="ProjectsPage-row">
+        <Row> 
           <ImageCarousel />
         </Row>
       </Container>

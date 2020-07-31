@@ -128,3 +128,13 @@
 .ImageCarousel-container {
   width: 50%;
 }
+
+.ProjectsPage-header {
+  font-size: 6rem;
+  margin: 3rem;
+}
+
+.ProjectsPage-row {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
