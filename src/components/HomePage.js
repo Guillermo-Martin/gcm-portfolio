@@ -6,7 +6,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 function HomePage() {
-  return(
+  return (
     <div>
       <HeroImage />
       <About />
@@ -14,7 +14,7 @@ function HomePage() {
       <Contact />
       <Footer />
     </div>
-  )
+  );
 }
 
 export default HomePage;
