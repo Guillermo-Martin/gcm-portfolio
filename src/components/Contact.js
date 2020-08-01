@@ -8,14 +8,14 @@ function Contact() {
       <div>
 
         {/* Header and text */}
-        <h2 className="Contact-header">This is the Contact section.</h2>
-        <p>Diam vulputate ut pharetra sit amet aliquam id.</p>
+        <h2 className="Contact-header">Say Hello.</h2>
+        <p>Reach out and say hi or connect with me.  I look forward to hearing from you.</p>
 
         {/* Button */}
-        <Button>Button</Button>
+        <Button>Email Me.</Button>
 
         {/* Icons */}
-        <p className="Contact-icons">Icons will go here.</p>
+        {/* ICONS WILL GO HERE */}
 
       </div>
     </Container>  

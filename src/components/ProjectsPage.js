@@ -12,8 +12,9 @@ function ProjectsPage() {
       <HeroImage />
 
       {/* Carousel 1 */}
-      <h2 className="ProjectsPage-header">Excepteur sint.</h2>
-      <p>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</p>
+      <h2 className="ProjectsPage-header">Starting Out.</h2>
+      <p>We've all got to start somewhere.</p>
+      <p>A collection of projects I did as a student.</p>
       <Container fluid className="ProjectsPage-row">
         <Row>
           <ImageCarousel />
@@ -21,8 +22,19 @@ function ProjectsPage() {
       </Container>
 
       {/* Carousel 2 */}
-      <h2 className="ProjectsPage-header">Excepteur sint.</h2>
-      <p>Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.</p>
+      <h2 className="ProjectsPage-header">Teamwork.</h2>
+      <p>Makes the dreams work.</p>
+      <p>A collection of projects that I collaborated on.</p>
+      <Container fluid className="ProjectsPage-row">
+        <Row> 
+          <ImageCarousel />
+        </Row>
+      </Container>
+
+      {/* Carousel 3 */}
+      <h2 className="ProjectsPage-header">Growing.</h2>
+      <p>Continuing the journey.</p>
+      <p>A collection of some of my work.</p>
       <Container fluid className="ProjectsPage-row">
         <Row> 
           <ImageCarousel />

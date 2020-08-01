@@ -9,11 +9,11 @@ function HeroImage() {
         <div className="HeroImage-text">
           
           {/* Name and text */}
-          <h1 className="HeroImage-text-name">Lorem ipsum</h1>
-          <h2 className="HeroImage-text-intro">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h2>
+          <h1 className="HeroImage-text-name">Hi, I'm Guillermo.</h1>
+          <h2 className="HeroImage-text-intro">And I'm a front-end web developer.</h2>
 
           {/* Link to learn more */}
-          <div className="HeroImage-text-learn"><a href="#" className="HeroImage-learn">Pellentesque.</a></div>
+          <div className="HeroImage-text-learn"><a href="#" className="HeroImage-learn">Learn more!</a></div>
         </div>
       </div>
 

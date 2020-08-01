@@ -9,9 +9,9 @@ function Projects() {
     <div className="Projects-container">
 
       {/* Header and text */}
-      <h2 className="Projects-h1">This is the projects section.</h2>
+      <h2 className="Projects-h1">Portfolio.</h2>
       <p className="Projects-text">
-        Quam id leo in vitae turpis massa. Convallis aenean et tortor at risus viverra adipiscing. Sit amet justo donec enim. Arcu felis bibendum ut tristique. Quis lectus nulla at volutpat diam ut venenatis.
+        Here's a selection of work I've done.
       </p>
       <Container>
 
@@ -23,7 +23,7 @@ function Projects() {
         </Row>
         
         {/* Link to see more */}
-        <Link to='/projects'>Tellus mauris.</Link>
+        <Link to='/projects'>See More!</Link>
       </Container>
       
     </div>
