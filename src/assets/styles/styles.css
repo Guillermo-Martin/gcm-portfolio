@@ -80,24 +80,20 @@
   margin: 3rem;
 }
 
-.Projects-container {
+.Portfolio-container {
   border: 3px solid black;
 }
 
-.Projects-row {
+.Portfolio-row {
   display: flex;
   justify-content: space-evenly;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
-.Projects-h1 {
+.Portfolio-h1 {
   font-size: 6rem;
   margin: 3rem;
-}
-
-.Projects-link {
-  margin: 90px;
 }
 
 .Contact-container {
@@ -121,7 +117,7 @@
   align-items: center;
 }
 
-.ProjectsPage-container {
+.PortfolioPage-container {
   border: 3px solid black;
 }
 
@@ -129,12 +125,12 @@
   width: 50%;
 }
 
-.ProjectsPage-header {
+.PortfolioPage-header {
   font-size: 6rem;
   margin: 3rem;
 }
 
-.ProjectsPage-row {
+.PortfolioPage-row {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }

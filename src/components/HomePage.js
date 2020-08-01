@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroImage from './HeroImage';
 import About from './About';
-import Projects from './Projects';
+import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -10,7 +10,7 @@ function HomePage() {
     <div>
       <HeroImage />
       <About />
-      <Projects />
+      <Portfolio />
       <Contact />
       <Footer />
     </div>

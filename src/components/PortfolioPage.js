@@ -4,38 +4,38 @@ import ImageCarousel from './ImageCarousel';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-function ProjectsPage() {
+function PortfolioPage() {
   return (
-    <div className="ProjectsPage-container">
+    <div className="PortfolioPage-container">
 
       {/* Hero image */}
       <HeroImage />
 
       {/* Carousel 1 */}
-      <h2 className="ProjectsPage-header">Starting Out.</h2>
+      <h2 className="PortfolioPage-header">Starting Out.</h2>
       <p>We've all got to start somewhere.</p>
       <p>A collection of projects I did as a student.</p>
-      <Container fluid className="ProjectsPage-row">
+      <Container fluid className="PortfolioPage-row">
         <Row>
           <ImageCarousel />
         </Row>
       </Container>
 
       {/* Carousel 2 */}
-      <h2 className="ProjectsPage-header">Teamwork.</h2>
+      <h2 className="PortfolioPage-header">Teamwork.</h2>
       <p>Makes the dreams work.</p>
       <p>A collection of projects that I collaborated on.</p>
-      <Container fluid className="ProjectsPage-row">
+      <Container fluid className="PortfolioPage-row">
         <Row> 
           <ImageCarousel />
         </Row>
       </Container>
 
       {/* Carousel 3 */}
-      <h2 className="ProjectsPage-header">Growing.</h2>
+      <h2 className="PortfolioPage-header">Growing.</h2>
       <p>Continuing the journey.</p>
       <p>A collection of some of my work.</p>
-      <Container fluid className="ProjectsPage-row">
+      <Container fluid className="PortfolioPage-row">
         <Row> 
           <ImageCarousel />
         </Row>
@@ -45,4 +45,4 @@ function ProjectsPage() {
   );
 }
 
-export default ProjectsPage;
+export default PortfolioPage;

@@ -21,7 +21,7 @@ function Navigation() {
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="#projects">Portfolio</Nav.Link>
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
               </Nav.Item>
           </Navbar.Collapse>
         </Navbar>
