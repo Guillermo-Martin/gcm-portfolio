@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
-    <div className="Projects-container">
+    <div className="Projects-container" id="projects">
 
       {/* Header and text */}
       <h2 className="Projects-h1">Portfolio.</h2>

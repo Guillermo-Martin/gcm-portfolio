@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
@@ -10,17 +11,17 @@ function Navigation() {
 
         <Navbar expand="lg" fixed="sticky">
 
-          <Navbar.Brand href="#home">Guillermo Martin</Navbar.Brand>
+          <Navbar.Brand><Link to='/'>Guillermo Martin</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 
           {/* Links */}
           <Navbar.Collapse className="justify-content-end">
               <Nav.Item>
-                <Nav.Link href="/home">About</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="link-1">Portfolio</Nav.Link>
+                <Nav.Link href="#projects">Portfolio</Nav.Link>
               </Nav.Item>
           </Navbar.Collapse>
         </Navbar>

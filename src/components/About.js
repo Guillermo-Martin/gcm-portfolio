@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function About() {
   return (
-    <div className="About-container">
+    <div className="About-container" id="about">
 
       {/* Header and text */}
       <h2 className="About-header">About Me.</h2>
