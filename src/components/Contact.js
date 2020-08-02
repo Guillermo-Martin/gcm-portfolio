@@ -13,12 +13,12 @@ function Contact() {
           <p>Reach out and say hi or connect with me.  I look forward to hearing from you.</p>
 
           {/* Button */}
-          <Button><i class="far fa-envelope"></i>Email Me.</Button>
+          <Button><i className="far fa-envelope"></i>Email Me.</Button>
         
-        <Row>
+        <Row className="Contact-row-icons">
           {/* Icons */}
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-github"></i>
+          <i className="fab fa-linkedin icon"></i>
+          <i className="fab fa-github icon"></i>
         </Row>
         
       </div>
