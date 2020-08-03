@@ -3,6 +3,9 @@ import ProjectCard from './ProjectCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
+import passwordGenerator from './../assets/images/passwordGenerator.jpg';
+import weatherDashboard from './../assets/images/weatherDashboard.png';
+import blogSite from './../assets/images/blogSite.PNG';
 
 function Portfolio() {
   return (
@@ -17,9 +20,24 @@ function Portfolio() {
 
         {/* Project cards */}
         <Row className="Portfolio-row">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard /> 
+          <ProjectCard
+            src={passwordGenerator}
+            title="lorem ipsum"
+            description="lorem ipsum"
+            tech="lorem ipsum"
+          />
+          <ProjectCard
+            src={weatherDashboard}
+            title="lorem ipsum"
+            description="lorem ipsum"
+            tech="lorem ipsum"
+          />
+          <ProjectCard
+            src={blogSite}
+            title="lorem ipsum"
+            description="lorem ipsum"
+            tech="lorem ipsum"
+          />
         </Row>
         
         {/* Link to see more */}

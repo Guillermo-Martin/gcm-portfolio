@@ -1,29 +1,30 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
     <div>
 
       {/* Main card */}
       <Card style={{ width: '20rem' }}>
         {/* Card image */}
-        <Card.Img variant="top" src="https://images.unsplash.com/photo-1561113415-be643eb42347?ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80" />
+        <Card.Img variant="top" src={props.src} className="card-img" />
         {/* Card body */}
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>{props.title}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            {props.description}
           </Card.Text>
-          <p className="card-text"><small className="text-muted">Some quick example text to build on the card title and make up the bulk of
-            the card's content.</small></p>
-          <Button variant="primary">Go somewhere</Button>
-          <Button variant="primary">Go somewhere</Button>
+          <p className="card-text">
+            <small className="text-muted">{props.tech}</small>
+          </p>
+          
         </Card.Body>
       </Card>
-      
+
     </div>
   );
 }
