@@ -25,18 +25,24 @@ function Portfolio() {
             title="Password Generator"
             description="A web application that uses prompts to generate a random password."
             tech="Made using: HTML, CSS, JavaScript, and GitHub Pages."
+            github="https://github.com/Guillermo-Martin/passwordGenerator"
+            livelink="https://guillermo-martin.github.io/passwordGenerator/"
           />
           <ProjectCard
             src={weatherDashboard}
             title="Weather Dashboard"
             description="A web application that provides the current weather and a 5-day forecast for a city."
             tech="Made using: HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather API, Moment.js, and GitHub Pages."
+            github="https://github.com/Guillermo-Martin/weatherDashboard"
+            livelink="https://guillermo-martin.github.io/weatherDashboard/"
           />
           <ProjectCard
             src={blogSite}
             title="Blog Site"
             description="A blog site that allows users to post, view recipes, or Pokemon information."
             tech="Made using: HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
+            github="https://github.com/Kerry-Jr/Project02"
+            livelink="https://project02blog.herokuapp.com/"
           />
         </Row>
         
