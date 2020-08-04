@@ -1,6 +1,5 @@
 import React from 'react';
 import HeroImage from './HeroImage';
-import ImageCarousel from './ImageCarousel';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ImageCard from './../components/ImageCard';
@@ -12,7 +11,7 @@ function PortfolioPage() {
       {/* Hero image */}
       <HeroImage />
 
-      {/* Carousel 1 */}
+      {/* Starting Out Section  */}
       <h2 className="PortfolioPage-header">Starting Out.</h2>
       <p>We've all got to start somewhere.</p>
       <p>A collection of projects I did as a student.</p>
@@ -27,7 +26,7 @@ function PortfolioPage() {
         </Row>
       </Container>
 
-      {/* Carousel 2 */}
+      {/* Teamwork Section */}
       <h2 className="PortfolioPage-header">Teamwork.</h2>
       <p>Makes the dreams work.</p>
       <p>A collection of projects that I collaborated on.</p>
@@ -37,13 +36,13 @@ function PortfolioPage() {
         </Row>
       </Container>
 
-      {/* Carousel 3 */}
+      {/* Personal Projects */}
       {/* <h2 className="PortfolioPage-header">Growing.</h2>
       <p>Continuing the journey.</p>
       <p>A collection of some of my work.</p>
       <Container fluid className="PortfolioPage-row">
         <Row> 
-          <ImageCarousel />
+          
         </Row>
       </Container> */}
 

@@ -3,8 +3,7 @@
 }
 
 .HeroImage-img {
-  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"); */
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   height: 62rem;
   width: 100%;
   background-size: cover;
@@ -165,29 +164,6 @@
 
 .card-body {
   padding-bottom: 0;
-}
-
-.ImageCarousel-container {
-  border: 3px solid orange;
-}
-
-
-/* https://stackoverflow.com/questions/49844515/how-do-i-stop-my-bootstrap-carousel-from-changing-size */
-.ImageCarousel-item {
-  border: 5px solid red;
-  height: 35rem;
-  overflow: hidden;
-  width: 100%;
-}
-
-
-.ImageCarousel-img {
-  width: 100%;
-  object-fit: fill;
-}
-
-.carousel-text {
-  color: black;
 }
 
 
