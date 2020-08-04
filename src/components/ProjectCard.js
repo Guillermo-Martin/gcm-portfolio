@@ -32,6 +32,7 @@ function ProjectCard(props) {
             <p className="card-text">
               <small className="text-muted">{props.tech}</small>
             </p>
+            
           </div>
           
           {/* Github icon for repository */}
