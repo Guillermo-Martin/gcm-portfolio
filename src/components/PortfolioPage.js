@@ -18,7 +18,7 @@ function PortfolioPage() {
       <p>A collection of projects I did as a student.</p>
       <Container fluid >
         <Row className="PortfolioPage-row">
-        <ImageCard />
+          <ImageCard />
           <ImageCard />
           <ImageCard />
           <ImageCard />
