@@ -129,8 +129,9 @@
 }
 
 .PortfolioPage-row {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  /* margin-top: 4rem; */
+  /* margin-bottom: 4rem; */
+  border: 3px solid orange;
 }
 
 .Contact-row-icons {
@@ -176,7 +177,15 @@
   width: 100%;
 }
 
+.ImageCarousel-item:hover {
+  
+}
+
 .ImageCarousel-img {
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
+}
+
+.carousel-text {
+  color: black;
 }

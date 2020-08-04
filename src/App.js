@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import HomePage from './components/HomePage';
+import ImageCard from './components/ImageCard';
 import PortfolioPage from './components/PortfolioPage';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
