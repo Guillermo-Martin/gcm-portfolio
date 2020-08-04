@@ -213,3 +213,12 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+.hello {
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.hello:hover {
+  filter: brightness(50%);
+}
