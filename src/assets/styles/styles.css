@@ -195,30 +195,27 @@
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade */
 /* the text is hidden using this */
 .ImageCard-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
-  transition: .3s ease;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1))
 }
 
 /* when you hover over the div, the text becomes visible */
-.ImageCard-div:hover .ImageCard-overlay {
+.ImageCard-container:hover .ImageCard-overlay {
   opacity: 1;
 }
 
 .ImageCard-text {
   color: white;
-  font-size: 1rem;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.hello {
-  opacity: 1;
-  transition: .3s ease;
-}
-
-.hello:hover {
-  filter: brightness(50%);
 }
