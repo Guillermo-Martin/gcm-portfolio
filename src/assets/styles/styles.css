@@ -121,9 +121,7 @@
   border: 3px solid black;
 }
 
-.ImageCarousel-container {
-  width: 50%;
-}
+
 
 .PortfolioPage-header {
   font-size: 6rem;
@@ -163,4 +161,22 @@
 
 .card-body {
   padding-bottom: 0;
+}
+
+.ImageCarousel-container {
+  border: 3px solid orange;
+}
+
+
+/* https://stackoverflow.com/questions/49844515/how-do-i-stop-my-bootstrap-carousel-from-changing-size */
+.ImageCarousel-item {
+  border: 5px solid red;
+  height: 35rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.ImageCarousel-img {
+  width: 100%;
+  object-fit: cover;
 }
