@@ -1,3 +1,4 @@
+/* ===== HeroImage.js ===== */
 .HeroImage-container {
   display: flex;
 }
@@ -42,37 +43,10 @@
   justify-content: flex-end;
 }
 
+/* ===== About.js ===== */
 .About-container {
   /* height: 31rem; */
   border: 2px solid black;
-}
-
-.About-row {
-  height: 100%;
-  border: 2px solid red;
-}
-
-.About-col-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.About-img {
-  margin-left: 50%;
-}
-
-.About-col-text {
-  /* border: 3px solid blue; */
-  text-align: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.About-col-p {
-  /* border: 3px solid red; */
-  padding-right: 50%;
 }
 
 .About-header {
@@ -80,6 +54,8 @@
   margin: 3rem;
 }
 
+
+/* ===== Portfolio.js ===== */
 .Portfolio-container {
   border: 3px solid black;
 }
@@ -96,6 +72,7 @@
   margin: 3rem;
 }
 
+/* ===== Contact.js ===== */
 .Contact-container {
   border: 2px solid orangered;
 }
@@ -105,10 +82,13 @@
   margin: 3rem;
 }
 
-.Contact-icons {
-  margin-top: 2rem;
+.Contact-row-icons {
+  border: 3px solid plum;
+  display: flex;
+  justify-content: center;
 }
 
+/* ===== Footer.js ===== */
 .Footer {
   border: 3px solid purple;
   height: 5rem;
@@ -117,11 +97,10 @@
   align-items: center;
 }
 
+/* ===== PortfolioPage.js ===== */
 .PortfolioPage-container {
   border: 3px solid black;
 }
-
-
 
 .PortfolioPage-header {
   font-size: 6rem;
@@ -136,12 +115,7 @@
   justify-content: center;
 }
 
-.Contact-row-icons {
-  border: 3px solid plum;
-  display: flex;
-  justify-content: center;
-}
-
+/* ===== FontAwesome Icons ===== */
 .icon {
   font-size: 2.5rem;
   margin: 1rem;
@@ -151,6 +125,7 @@
   margin-right: 0.5rem;
 }
 
+/* ===== ProjectCard.js ===== */
 .card-img {
   height: 14rem;
 }
@@ -166,7 +141,7 @@
   padding-bottom: 0;
 }
 
-
+/* ===== ImageCard.js ===== */
 /* Hover effect for ImageCard component */
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade */
 /* the text is hidden using this */
