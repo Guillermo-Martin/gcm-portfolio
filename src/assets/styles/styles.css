@@ -3,7 +3,8 @@
 }
 
 .HeroImage-img {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   height: 62rem;
   width: 100%;
   background-size: cover;
@@ -187,4 +188,28 @@
 
 .carousel-text {
   color: black;
+}
+
+
+/* Hover effect for ImageCard component */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade */
+/* the text is hidden using this */
+.ImageCard-overlay {
+  opacity: 0;
+  transition: .3s ease;
+}
+
+/* when you hover over the div, the text becomes visible */
+.ImageCard-div:hover .ImageCard-overlay {
+  opacity: 1;
+}
+
+.ImageCard-text {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
