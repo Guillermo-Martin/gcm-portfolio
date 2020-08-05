@@ -4,7 +4,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ImageCard from './../components/ImageCard';
 import passwordGenerator from './../assets/images/passwordGenerator.png';
+import codeQuiz from './../assets/images/codeQuiz.png';
+import workdayScheduler from './../assets/images/workdayScheduler.png';
 import weatherDashboard from './../assets/images/weatherDashboard.png';
+import goodReadme from './../assets/images/goodReadme.png';
+import teamProfile from './../assets/images/teamProfile.png';
+import noteTaker from './../assets/images/noteTaker.png';
+import employeeManagement from './../assets/images/employeeManagement.png';
+import fitnessTracker from './../assets/images/fitnessTracker.png';
+import employeeDirectory from './../assets/images/employeeDirectory.png';
 import blogSite from './../assets/images/blogSite.png';
 
 function PortfolioPage() {
@@ -22,30 +30,75 @@ function PortfolioPage() {
         <Row className="PortfolioPage-row">
           <ImageCard
             src={passwordGenerator} 
-            title="lorem ipsum"
+            title="Password Generator"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={codeQuiz} 
+            title="Code Quiz"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={workdayScheduler} 
+            title="Work Day Scheduler"
             description="Some quick example text to build on the card title and make up the bulk of
             the card's content."
             tech="lorem ipsum"
           />
           <ImageCard
             src={weatherDashboard} 
-            title="lorem ipsum"
+            title="Weather Dashboard"
             description="Some quick example text to build on the card title and make up the bulk of
             the card's content."
             tech="lorem ipsum"
           />
           <ImageCard
-            src={blogSite} 
-            title="lorem ipsum"
+            src={goodReadme} 
+            title="Good ReadMe Generator"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={teamProfile} 
+            title="Team Profile Generator"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={noteTaker} 
+            title="Note Taker"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={employeeManagement} 
+            title="Employee Management System"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={fitnessTracker} 
+            title="Fitness Tracker"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={employeeDirectory} 
+            title="Employee Directory"
             description="Some quick example text to build on the card title and make up the bulk of
             the card's content."
             tech="lorem ipsum"
           />
           
-          {/* <ImageCard />
-          <ImageCard />
-          <ImageCard />
-          <ImageCard /> */}
         </Row>
       </Container>
 
