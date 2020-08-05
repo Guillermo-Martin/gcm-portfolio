@@ -3,6 +3,9 @@ import HeroImage from './HeroImage';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ImageCard from './../components/ImageCard';
+import passwordGenerator from './../assets/images/passwordGenerator.png';
+import weatherDashboard from './../assets/images/weatherDashboard.png';
+import blogSite from './../assets/images/blogSite.png';
 
 function PortfolioPage() {
   return (
@@ -17,14 +20,29 @@ function PortfolioPage() {
       <p>A collection of projects I did as a student.</p>
       <Container fluid >
         <Row className="PortfolioPage-row">
-          <ImageCard 
+          <ImageCard
+            src={passwordGenerator} 
             title="lorem ipsum"
             description="Some quick example text to build on the card title and make up the bulk of
             the card's content."
             tech="lorem ipsum"
           />
+          <ImageCard
+            src={weatherDashboard} 
+            title="lorem ipsum"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          <ImageCard
+            src={blogSite} 
+            title="lorem ipsum"
+            description="Some quick example text to build on the card title and make up the bulk of
+            the card's content."
+            tech="lorem ipsum"
+          />
+          
           {/* <ImageCard />
-          <ImageCard />
           <ImageCard />
           <ImageCard />
           <ImageCard /> */}

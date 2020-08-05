@@ -8,7 +8,9 @@ function ImageCard(props) {
         {/* Image */}
         <Card.Img 
           variant="top" 
-          src="https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+          // src="https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+          src={props.src}
+          className="ImageCard-img"
         />
 
           {/* Content */}
@@ -20,8 +22,8 @@ function ImageCard(props) {
                 <small className="text-muted">{props.tech}</small>
               </div>
               <div>
-                <i class="fas fa-link"></i>
-                <i class="fab fa-github"></i>
+                <i className="fas fa-link ImageCard-icon"></i>
+                <i className="fab fa-github ImageCard-icon"></i>
               </div>
             </Card.Text>
           </div>

@@ -156,6 +156,10 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1))
 }
 
+.ImageCard-container {
+  /* border: 3px solid green; */
+}
+
 /* when you hover over the div, the text becomes visible */
 .ImageCard-container:hover .ImageCard-overlay {
   opacity: 1;
@@ -169,4 +173,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.ImageCard-img {
+  height: 20rem;
+}
+
+.ImageCard-icon {
+  font-size: 1.6rem;
+  margin: 0 0.5rem;
 }
