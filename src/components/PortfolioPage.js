@@ -65,7 +65,7 @@ function PortfolioPage() {
             title="Good ReadMe Generator"
             description="A command-line application that will create a 'readme' file based off user input."
             tech="Node.js, Axios, Dotenv, and Inquirer."
-            link="https://github.com/Guillermo-Martin/goodReadMeGenerator"
+            link={false}
             github="https://github.com/Guillermo-Martin/goodReadMeGenerator"
           />
           <ImageCard
@@ -73,7 +73,7 @@ function PortfolioPage() {
             title="Team Profile Generator"
             description="A command-line application that will create an HTML file with employee information gathered from a series of prompts."
             tech="Node.js, Inquirer, and Jest."
-            link="https://github.com/Guillermo-Martin/teamProfileGenerator"
+            link={false}
             github="https://github.com/Guillermo-Martin/teamProfileGenerator"
           />
           <ImageCard
@@ -89,7 +89,7 @@ function PortfolioPage() {
             title="Employee Management System"
             description="A command-line application for adding, viewing, updating, and deleting employee information."
             tech="Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint."
-            link="https://github.com/Guillermo-Martin/employeeManagementSystem"
+            link={false}
             github="https://github.com/Guillermo-Martin/employeeManagementSystem"
           />
           <ImageCard

@@ -2,6 +2,9 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 
 function ImageCard(props) {
+  // save props.link to variable to use for conditional rendering
+  let link = props.link;
+
   return (
     <div className="ImageCard-container">
       <Card style={{ width: '30rem', margin: "0.5rem" }}>
@@ -22,12 +25,22 @@ function ImageCard(props) {
                 <small className="ImageCard-tech">Made using: {props.tech}</small>
               </div>
               <div>
-                <a href={props.link} target="_blank" rel="noopener noreferrer"><i className="fas fa-link ImageCard-icon"></i></a>
-                <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github ImageCard-icon"></i></a>
+
+                {/* if link is false, (i.e. no link available) render github icon only; else render both icons */}
+                {!link 
+                  ? <div>
+                      <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github ImageCard-icon"></i></a> 
+                    </div>
+                
+                  : <div>
+                      <a href={props.link} target="_blank" rel="noopener noreferrer"><i className="fas fa-link ImageCard-icon"></i></a>
+                      <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github ImageCard-icon"></i></a> 
+                    </div>
+                }
+                 
               </div>
             </Card.Text>
-          </div>
-          
+          </div> 
       </Card>
       
     </div>
