@@ -62,7 +62,7 @@
 
 .Portfolio-row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
