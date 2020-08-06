@@ -22,8 +22,8 @@ function ImageCard(props) {
                 <small className="ImageCard-tech">Made using: {props.tech}</small>
               </div>
               <div>
-                <i className="fas fa-link ImageCard-icon"></i>
-                <i className="fab fa-github ImageCard-icon"></i>
+                <a href={props.link} target="_blank" rel="noopener noreferrer"><i className="fas fa-link ImageCard-icon"></i></a>
+                <a href={props.github} target="_blank" rel="noopener noreferrer"><i className="fab fa-github ImageCard-icon"></i></a>
               </div>
             </Card.Text>
           </div>
