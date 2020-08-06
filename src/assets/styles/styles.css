@@ -72,6 +72,10 @@
   margin: 3rem;
 }
 
+.Portfolio-link {
+  font-size: 1.3rem;
+}
+
 /* ===== Contact.js ===== */
 .Contact-container {
   border: 2px solid orangered;

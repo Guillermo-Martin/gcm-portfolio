@@ -47,7 +47,7 @@ function Portfolio() {
         </Row>
         
         {/* Link to see more */}
-        <Link to='/portfolio'>See More!</Link>
+        <Link to='/portfolio'><span className="Portfolio-link">See More!</span></Link>
       </Container>
       
     </div>
