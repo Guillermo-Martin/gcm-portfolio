@@ -19,7 +19,7 @@ function ImageCard(props) {
               <Card.Title>{props.title}</Card.Title>
               <p>{props.description}</p>
               <div>
-                <small className="text-muted">{props.tech}</small>
+                <small className="text-muted">Made using: {props.tech}</small>
               </div>
               <div>
                 <i className="fas fa-link ImageCard-icon"></i>

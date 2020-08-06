@@ -31,72 +31,62 @@ function PortfolioPage() {
           <ImageCard
             src={passwordGenerator} 
             title="Password Generator"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that uses prompts to generate a random password."
+            tech="Made using: HTML, CSS, JavaScript, and GitHub Pages."
           />
           <ImageCard
             src={codeQuiz} 
             title="Code Quiz"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that tests a user's JavaScript knowledge."
+            tech="HTML, JavaScript, Bootstrap, and GitHub Pages."
           />
           <ImageCard
             src={workdayScheduler} 
             title="Work Day Scheduler"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that allows a user to plan their workday."
+            tech="HTML, JavaScript, jQuery, Bootstrap, and Moment.js."
           />
           <ImageCard
             src={weatherDashboard} 
             title="Weather Dashboard"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that provides the current weather and a 5-day forecast for a city."
+            tech="HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather API, Moment.js, and GitHub Pages."
           />
           <ImageCard
             src={goodReadme} 
             title="Good ReadMe Generator"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A command-line application that will create a 'readme' file based off user input."
+            tech="Node.js, Axios, Dotenv, and Inquirer."
           />
           <ImageCard
             src={teamProfile} 
             title="Team Profile Generator"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A command-line application that will create an HTML file with employee information gathered from a series of prompts."
+            tech="Node.js, Inquirer, and Jest."
           />
           <ImageCard
             src={noteTaker} 
             title="Note Taker"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that allows a user to take notes using Express."
+            tech="HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Express, UUID, and Heroku."
           />
           <ImageCard
             src={employeeManagement} 
             title="Employee Management System"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A command-line application that prompts a user with a series of choices for adding, viewing, updating, and deleting employee information."
+            tech="Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint."
           />
           <ImageCard
             src={fitnessTracker} 
             title="Fitness Tracker"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that allows a user to create and track their workouts."
+            tech="Express, MongoDB, Mongoose, Morgan, and Heroku."
           />
           <ImageCard
             src={employeeDirectory} 
             title="Employee Directory"
-            description="Some quick example text to build on the card title and make up the bulk of
-            the card's content."
-            tech="lorem ipsum"
+            description="A web application that lists employee information."
+            tech="React, Random User Generator API, and Heroku."
           />
           
         </Row>
