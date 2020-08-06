@@ -73,7 +73,7 @@ function PortfolioPage() {
           <ImageCard
             src={employeeManagement} 
             title="Employee Management System"
-            description="A command-line application that prompts a user with a series of choices for adding, viewing, updating, and deleting employee information."
+            description="A command-line application for adding, viewing, updating, and deleting employee information."
             tech="Node.js, Inquirer, mySQL, mySQL Workbench, and ESLint."
           />
           <ImageCard

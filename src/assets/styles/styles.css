@@ -153,7 +153,7 @@
   right: 0;
   opacity: 0;
   transition: .5s ease;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1))
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1))
 }
 
 .ImageCard-container {
@@ -165,14 +165,25 @@
   opacity: 1;
 }
 
+.ImageCard-title {
+  border: 3px solid blue;
+  font-size: 1.7rem;
+  width: 27rem;
+}
+
 .ImageCard-text {
   color: white;
-  font-size: 20px;
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.ImageCard-tech {
+  font-size: 0.8rem;
+  color: white;
 }
 
 .ImageCard-img {
@@ -182,4 +193,5 @@
 .ImageCard-icon {
   font-size: 1.6rem;
   margin: 0 0.5rem;
+  margin-top: 1.5rem;
 }

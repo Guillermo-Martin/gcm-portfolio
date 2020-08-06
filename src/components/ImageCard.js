@@ -16,10 +16,10 @@ function ImageCard(props) {
           {/* Content */}
           <div className="ImageCard-overlay">
             <Card.Text className="ImageCard-text">
-              <Card.Title>{props.title}</Card.Title>
+              <Card.Title className="ImageCard-title">{props.title}</Card.Title>
               <p>{props.description}</p>
               <div>
-                <small className="text-muted">Made using: {props.tech}</small>
+                <small className="ImageCard-tech">Made using: {props.tech}</small>
               </div>
               <div>
                 <i className="fas fa-link ImageCard-icon"></i>
