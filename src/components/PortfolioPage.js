@@ -13,7 +13,9 @@ import noteTaker from './../assets/images/noteTaker.png';
 import employeeManagement from './../assets/images/employeeManagement.png';
 import fitnessTracker from './../assets/images/fitnessTracker.png';
 import employeeDirectory from './../assets/images/employeeDirectory.png';
+import petAdoption from './../assets/images/petAdoption.png';
 import blogSite from './../assets/images/blogSite.png';
+import planet from './../assets/images/planet.png';
 
 function PortfolioPage() {
   return (
@@ -118,6 +120,30 @@ function PortfolioPage() {
       <p>A collection of projects that I collaborated on.</p>
       <Container fluid className="PortfolioPage-row">
         <Row> 
+        <ImageCard
+            src={petAdoption} 
+            title="Pet Adoption"
+            description="A web application for finding dogs or cats to adopt."
+            tech="HTML, CSS, JavaScript, jQuery, Foundation, AJAX, PetFinder API, and GitHub Pages.  (Note: The API key required to run this application may be expired.)"
+            link="https://guillermo-martin.github.io/project1/"
+            github="https://github.com/Guillermo-Martin/project1"
+        />
+        <ImageCard
+            src={blogSite} 
+            title="Blog Site"
+            description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
+            tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
+            link="https://project02blog.herokuapp.com/"
+            github="https://github.com/Kerry-Jr/Project02"
+        />
+        <ImageCard
+            src={planet} 
+            title="Planet"
+            description="A web application for planning and keeping track of events."
+            tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
+            link="https://blooming-atoll-78659.herokuapp.com/"
+            github="https://github.com/jngo2013/Planet"
+        />
           
         </Row>
       </Container>
