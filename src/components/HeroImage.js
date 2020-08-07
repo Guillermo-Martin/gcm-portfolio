@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 import './../assets/styles/styles.css';
 
 function HeroImage() {
@@ -11,9 +12,7 @@ function HeroImage() {
           {/* Name and text */}
           <h1 className="HeroImage-text-name">Hi, I'm Guillermo.</h1>
           <h2 className="HeroImage-text-intro">And I'm a front-end web developer.</h2>
-
-          {/* Link to learn more */}
-          <div className="HeroImage-text-learn"><a href="#" className="HeroImage-learn">Learn more!</a></div>
+          
         </div>
       </div>
 
