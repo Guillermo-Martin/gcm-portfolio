@@ -18,14 +18,14 @@ function About() {
           Hi, I'm Guillermo.  I'm a front-end web developer based in the Bay Area in California.  I recently earned my certificate in full-stack web development from the University of California, Berkeley Extension.  During my time there, I developed an intense passion for front-end web development and design.  Inspired by simple, clean, and sleek designs, I'm motivated to learn and create the same. 
         </p>
 
-        <h2>Skills</h2>
+        <h2 className="About-skills">Skills</h2>
 
-        <Row>
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3-alt"></i>
-          <i class="fab fa-js"></i>
-          <i class="fab fa-bootstrap"></i>
-          <i class="fab fa-react"></i>
+        <Row className="About-icons-row">
+          <i className="About-icons fab fa-html5"></i>
+          <i className="About-icons fab fa-css3-alt"></i>
+          <i className="About-icons fab fa-js"></i>
+          <i className="About-icons fab fa-bootstrap"></i>
+          <i className="About-icons fab fa-react"></i>
         </Row>
 
         
