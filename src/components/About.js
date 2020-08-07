@@ -21,12 +21,29 @@ function About() {
         <h2 className="About-skills">Skills</h2>
 
         <Row className="About-icons-row">
-          <i className="About-icons fab fa-html5"></i>
-          <i className="About-icons fab fa-css3-alt"></i>
-          <i className="About-icons fab fa-js"></i>
-          <i className="About-icons fab fa-bootstrap"></i>
-          <i className="About-icons fab fa-react"></i>
+          <div className="About-icon-div">
+            <i className="About-icon fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div className="About-icon-div">
+            <i className="About-icon fab fa-css3-alt"></i>
+            <p>CSS3</p>
+          </div>
+          <div className="About-icon-div">
+            <i className="About-icon fab fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div className="About-icon-div">
+            <i className="About-icon fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div className="About-icon-div">
+            <i className="About-icon fab fa-react"></i>
+            <p>React</p>
+          </div>  
         </Row>
+
+        
 
         
           {/* INSERT LINKS TO LEARN MORE AND VIEW RESUME */}
