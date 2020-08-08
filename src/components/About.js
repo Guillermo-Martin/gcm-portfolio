@@ -19,11 +19,10 @@ function About() {
         {/* <p>
           Hi, I'm Guillermo.  I'm a front-end web developer based in the Bay Area in California.  I recently earned my certificate in full-stack web development from the University of California, Berkeley Extension.  During my time there, I developed an intense passion for front-end web development and design.  Inspired by simple, clean, and sleek designs, I'm motivated to learn and create the same. 
         </p> */}
-        <Row>
+        <Row className="About-text-row">
           <TextCard />
           <TextCard />
-          <TextCard />
-          
+          <TextCard /> 
         </Row>
         
         
