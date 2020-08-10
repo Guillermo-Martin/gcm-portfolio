@@ -268,3 +268,13 @@
   margin-top: 1.5rem;
   color: white;
 }
+
+
+/* ===== Navigation.js ===== */
+.Navbar {
+  background-color: black;
+}
+
+.Navbar-link {
+  color: white;
+}
