@@ -17,7 +17,7 @@ function TextCard(props) {
             <Card.Text className="ImageCard-text">
               {/* <Card.Title className="TextCard-title">Title</Card.Title> */}
               <p className="TextCard-text">
-                {props.text}
+                <div className="TextCard-text-div">{props.text}</div>
               </p>
              
             </Card.Text>

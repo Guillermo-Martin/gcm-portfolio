@@ -95,6 +95,7 @@
 .TextCard-image {
   /* border: 3px solid brown; */
   opacity: 0;
+  height: 15rem;
 }
 
 .TextCard-text {
@@ -102,6 +103,10 @@
   /* border: 3px solid green; */
   width: 29rem;
   text-align: left;
+}
+
+.TextCard-text-div {
+  height: 10rem;
 }
 
 
