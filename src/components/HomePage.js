@@ -8,7 +8,11 @@ import Footer from './Footer';
 function HomePage() {
   return (
     <div>
-      <HeroImage />
+      <HeroImage 
+        name="Hi, I'm Guillermo."
+        intro="I'm a front-end web developer based in the Bay Area."
+        className="HeroImage-img"
+      />
       <About />
       <Portfolio />
       <Contact />
