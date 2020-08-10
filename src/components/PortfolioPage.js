@@ -22,7 +22,11 @@ function PortfolioPage() {
     <div className="PortfolioPage-container">
 
       {/* Hero image */}
-      <HeroImage />
+      <HeroImage 
+        name="Portfolio"
+        intro="A collection of work I've done."
+        className="PortfolioPage-HeroImage-img"
+      />
 
       {/* Starting Out Section  */}
       <h2 className="PortfolioPage-header">Starting Out.</h2>
