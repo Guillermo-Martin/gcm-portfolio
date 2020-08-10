@@ -65,6 +65,8 @@
 
 .About-skills {
   font-size: 4.5rem;
+  /* border: 3px solid purple; */
+  margin-top: 2rem;
 }
 
 .About-text-row {
@@ -76,6 +78,8 @@
 .About-icons-row {
   display: flex;
   justify-content: center;
+  /* border: 3px solid purple; */
+  margin-bottom: 2rem;
 }
 
 .About-icon {
