@@ -59,6 +59,7 @@
 .About-skills {
   font-size: 4.5rem;
   margin-top: 2rem;
+  font-weight: 600;
 }
 
 .About-text-row {
@@ -83,6 +84,7 @@
 
 .About-learn-resume{
   background-color: black;
+  font-weight: 600;
 }
 
 /* ===== TextCard.js ===== */
@@ -138,6 +140,7 @@
 
 .Portfolio-button {
   background-color: black;
+  font-weight: 600;
 }
 
 /* ===== Contact.js ===== */
@@ -159,6 +162,7 @@
 .Contact-button {
   background-color: black;
   margin: 3rem;
+  font-weight: 600;
 }
 
 /* ===== Footer.js ===== */
@@ -285,6 +289,8 @@
 
 .Navbar-link {
   color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 /* ===== HorizontalRule.js ===== */
@@ -299,7 +305,6 @@
 }
 
 .HorizontalRule-Container {
-  /* border: 3px solid green; */
   display: flex;
   justify-content: center;
 }
