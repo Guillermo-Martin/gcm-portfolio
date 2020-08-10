@@ -91,7 +91,11 @@
   margin: 1rem;
 }
 
-/* TextCard.js */
+.About-learn-resume{
+  background-color: black;
+}
+
+/* ===== TextCard.js ===== */
 .TextCard {
   border: none;
 }
@@ -144,6 +148,10 @@
   position: relative;
 }
 
+.Portfolio-button {
+  background-color: black;
+}
+
 /* ===== Contact.js ===== */
 .Contact-container {
   border: 2px solid orangered;
@@ -158,6 +166,10 @@
   border: 3px solid plum;
   display: flex;
   justify-content: center;
+}
+
+.Contact-button {
+  background-color: black;
 }
 
 /* ===== Footer.js ===== */
@@ -191,6 +203,7 @@
 .icon {
   font-size: 2.5rem;
   margin: 1rem;
+  color: black;
 }
 
 .fa-envelope {

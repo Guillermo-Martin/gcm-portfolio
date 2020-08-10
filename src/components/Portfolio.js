@@ -2,6 +2,7 @@ import React from 'react';
 import ImageCard from './ImageCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import passwordGenerator from './../assets/images/passwordGenerator.png';
 import weatherDashboard from './../assets/images/weatherDashboard.png';
@@ -47,7 +48,8 @@ function Portfolio() {
         </Row>
         
         {/* Link to see more */}
-        <Link to='/portfolio'><span className="Portfolio-link">See More!</span></Link>
+        {/* <Link to='/portfolio'><span className="Portfolio-link">See More.</span></Link> */}
+        <Link to='/portfolio'><Button variant="dark" className="Portfolio-button">See More.</Button></Link>
       </Container>
       
     </div>

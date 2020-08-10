@@ -3,6 +3,7 @@ import TextCard from './TextCard';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 
 
 function About() {
@@ -68,8 +69,7 @@ function About() {
         
           {/* INSERT LINKS TO LEARN MORE AND VIEW RESUME */}
           <Row className="About-learn">
-            <a href="#">Learn Even More</a>
-            <a href="#">View My Resume.</a>
+            <a href="#"><Button variant="dark" className="About-learn-resume">View My Resume.</Button></a>
           </Row>
         
       </Container>

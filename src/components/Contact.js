@@ -13,7 +13,7 @@ function Contact() {
         <p>Reach out and say hi or connect with me.  I look forward to hearing from you.</p>
 
         {/* Button */}
-        <a href="mailto:gscalica@gmail.com"><Button><i className="far fa-envelope"></i>Email Me.</Button></a>
+        <a href="mailto:gscalica@gmail.com"><Button variant="dark" className="Contact-button"><i className="far fa-envelope"></i>Email Me.</Button></a>
         
         {/* Icons */}
         <Row className="Contact-row-icons">
