@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImage from './HeroImage';
+import HorizontalRule from './HorizontalRule';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ImageCard from './../components/ImageCard';
@@ -117,6 +118,8 @@ function PortfolioPage() {
           
         </Row>
       </Container>
+
+      <HorizontalRule />
 
       {/* Teamwork Section */}
       <h2 className="PortfolioPage-header">Teamwork.</h2>

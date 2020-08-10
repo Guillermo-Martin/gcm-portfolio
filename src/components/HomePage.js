@@ -4,6 +4,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
+import HorizontalRule from './HorizontalRule';
 
 function HomePage() {
   return (
@@ -14,7 +15,9 @@ function HomePage() {
         className="HeroImage-img"
       />
       <About />
+      <HorizontalRule />
       <Portfolio />
+      <HorizontalRule />
       <Contact />
       <Footer />
     </div>

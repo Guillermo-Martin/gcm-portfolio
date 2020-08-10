@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 function About() {
   return (
-    <div className="About-container" id="about">
+    <div id="about">
 
       {/* Header and text */}
       <h2 className="About-header">About Me.</h2>
