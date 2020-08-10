@@ -16,13 +16,24 @@ function About() {
       <Image roundedCircle src="https://randomuser.me/api/portraits/lego/5.jpg" />
 
       <Container fluid>
-        {/* <p>
-          Hi, I'm Guillermo.  I'm a front-end web developer based in the Bay Area in California.  I recently earned my certificate in full-stack web development from the University of California, Berkeley Extension.  During my time there, I developed an intense passion for front-end web development and design.  Inspired by simple, clean, and sleek designs, I'm motivated to learn and create the same. 
-        </p> */}
+
         <Row className="About-text-row">
-          <TextCard />
-          <TextCard />
-          <TextCard /> 
+          {/* First Section */}
+          <TextCard 
+            text="I’m from Virginia Beach, Virginia and now live in the Bay Area in California.  I have a Bachelor’s in Biology from James Madison University and a Master’s in Forensic Science from the University of Central Oklahoma."  
+          />
+          {/* Second Section */}
+          <TextCard 
+            text="When I moved to the Bay Area, I worked as a forensic scientist in the forensic biology/DNA unit of a local crime lab for ten years.  I worked in the lab to analyze evidence and in the field to process crime scenes.  While working there, I gained an interest in coding and decided to pursue a career in web development."
+          />
+          {/* Third Section */}
+          <TextCard 
+            text="I recently earned my certificate in Full Stack Web Development from the University of California, Berkeley Extension.  During my studies, I developed an intense passion for front-end web development and design. Inspired by simple, clean, and sleek designs, I’m motivated to learn and create the same."
+          /> 
+
+          <p>
+            In my spare time, I enjoy playing video games, fencing, reading, tinkering around with code, baking, and exploring all the Bay Area has to offer.
+          </p>
         </Row>
         
         

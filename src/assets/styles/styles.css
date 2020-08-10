@@ -95,13 +95,13 @@
 .TextCard-image {
   /* border: 3px solid brown; */
   opacity: 0;
-  
 }
 
 .TextCard-text {
   color: black;
   /* border: 3px solid green; */
   width: 29rem;
+  text-align: left;
 }
 
 
