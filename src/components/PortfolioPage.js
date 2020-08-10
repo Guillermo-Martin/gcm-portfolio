@@ -30,7 +30,7 @@ function PortfolioPage() {
       />
 
       {/* Starting Out Section  */}
-      <h2 className="PortfolioPage-header">Starting Out.</h2>
+      <h2 className="PortfolioPage-start">Starting Out.</h2>
       <p>We've all got to start somewhere.</p>
       <p>A collection of projects I did as a student.</p>
       <Container fluid >

@@ -120,7 +120,7 @@
 
 .Portfolio-h1 {
   font-size: 6rem;
-  margin: 3rem;
+  margin-bottom: 3rem;
 }
 
 .Portfolio-link {
@@ -147,17 +147,18 @@
 
 .Contact-header {
   font-size: 6rem;
-  margin: 3rem;
+  margin-bottom: 3rem;
 }
 
 .Contact-row-icons {
-  border: 3px solid plum;
+  /* border: 3px solid plum; */
   display: flex;
   justify-content: center;
 }
 
 .Contact-button {
   background-color: black;
+  margin: 3rem;
 }
 
 /* ===== Footer.js ===== */
@@ -176,13 +177,19 @@
 
 .PortfolioPage-header {
   font-size: 6rem;
-  margin: 3rem;
+  /* margin: 3rem; */
+  margin-bottom: 3rem;
+}
+
+.PortfolioPage-start {
+  font-size: 6rem;
+  margin: 3rem 0;
 }
 
 .PortfolioPage-row {
-  /* margin-top: 4rem; */
+  margin-top: 3rem;
   /* margin-bottom: 4rem; */
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
   display: flex;
   justify-content: center;
 }
