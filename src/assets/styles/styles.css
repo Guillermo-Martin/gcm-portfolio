@@ -87,6 +87,10 @@
   font-weight: 600;
 }
 
+.About-img {
+  height: 22rem;
+}
+
 /* ===== TextCard.js ===== */
 .TextCard {
   border: none;

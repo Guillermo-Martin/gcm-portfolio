@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import portfolioPic from './../assets/images/portfolioPic.jpg';
 
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
       <h2 className="About-header">About Me.</h2>
 
       {/* Image */}
-      <Image roundedCircle src="https://randomuser.me/api/portraits/lego/5.jpg" />
+      <Image roundedCircle src={portfolioPic} className="About-img" />
 
       <Container fluid>
 
