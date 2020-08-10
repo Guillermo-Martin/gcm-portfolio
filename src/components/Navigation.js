@@ -12,7 +12,7 @@ function Navigation() {
         <Navbar expand="lg" fixed="top" className="Navbar">
         
           <Navbar.Brand><Link to='/' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           {/* Links */}
           <Navbar.Collapse className="justify-content-end">
