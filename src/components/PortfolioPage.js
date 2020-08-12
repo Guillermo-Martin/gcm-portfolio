@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImage from './HeroImage';
 import HorizontalRule from './HorizontalRule';
+import Credit from './Credit';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ImageCard from './../components/ImageCard';
@@ -27,6 +28,11 @@ function PortfolioPage() {
         name="Portfolio"
         intro="A collection of work I've done."
         className="PortfolioPage-HeroImage-img"
+      />
+
+      <Credit 
+        name="Kristijan Arsov"
+        link="https://unsplash.com/@aarsoph"
       />
 
       {/* Starting Out Section  */}

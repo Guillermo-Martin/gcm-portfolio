@@ -16,7 +16,10 @@ function HomePage() {
         intro="I'm a front-end web developer based in the Bay Area."
         className="HeroImage-img"
       />
-      <Credit />
+      <Credit 
+        name="Tim Trad"
+        link="https://unsplash.com/@timtrad"
+      />
       <About />
       <HorizontalRule />
       <Portfolio />

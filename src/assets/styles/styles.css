@@ -368,4 +368,8 @@
   justify-content: center;
 }
 
+/* ===== Credit.js =====  */
 
+.Credit-container {
+  display: flex;
+}
