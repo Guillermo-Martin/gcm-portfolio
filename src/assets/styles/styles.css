@@ -88,6 +88,11 @@
   font-weight: 600;
 }
 
+.About-learn-resume:hover {
+  background-color: #1673c9;
+  border-color: #1673c9;
+}
+
 .About-img {
   height: 22rem;
 }
@@ -149,6 +154,11 @@
   font-weight: 600;
 }
 
+.Portfolio-button:hover {
+  background-color: #1673c9;
+  border-color: #1673c9;
+}
+
 /* ===== Contact.js ===== */
 .Contact-container {
   /* border: 2px solid orangered; */
@@ -170,6 +180,11 @@
   background-color: black;
   margin: 3rem;
   font-weight: 600;
+}
+
+.Contact-button:hover {
+  background-color: #1673c9;
+  border-color: #1673c9;
 }
 
 /* ===== Footer.js ===== */
@@ -227,6 +242,10 @@
   font-size: 2.5rem;
   margin: 1rem;
   color: black;
+}
+
+.icon:hover {
+  color: #1673c9;
 }
 
 .fa-envelope {
