@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/gcm-portfolio/static/css/main.61497217.chunk.css",
+    "main.js": "/gcm-portfolio/static/js/main.1df3a649.chunk.js",
+    "main.js.map": "/gcm-portfolio/static/js/main.1df3a649.chunk.js.map",
+    "runtime-main.js": "/gcm-portfolio/static/js/runtime-main.f6a70e42.js",
+    "runtime-main.js.map": "/gcm-portfolio/static/js/runtime-main.f6a70e42.js.map",
+    "static/js/2.4af99295.chunk.js": "/gcm-portfolio/static/js/2.4af99295.chunk.js",
+    "static/js/2.4af99295.chunk.js.map": "/gcm-portfolio/static/js/2.4af99295.chunk.js.map",
+    "index.html": "/gcm-portfolio/index.html",
+    "precache-manifest.3d12f2a545a28d2d509bda5780f2b357.js": "/gcm-portfolio/precache-manifest.3d12f2a545a28d2d509bda5780f2b357.js",
+    "service-worker.js": "/gcm-portfolio/service-worker.js",
+    "static/css/main.61497217.chunk.css.map": "/gcm-portfolio/static/css/main.61497217.chunk.css.map",
+    "static/js/2.4af99295.chunk.js.LICENSE.txt": "/gcm-portfolio/static/js/2.4af99295.chunk.js.LICENSE.txt",
+    "static/media/blogSite.png": "/gcm-portfolio/static/media/blogSite.6486816b.png",
+    "static/media/codeQuiz.png": "/gcm-portfolio/static/media/codeQuiz.ea164c05.png",
+    "static/media/employeeDirectory.png": "/gcm-portfolio/static/media/employeeDirectory.0689766f.png",
+    "static/media/employeeManagement.png": "/gcm-portfolio/static/media/employeeManagement.795496d3.png",
+    "static/media/fitnessTracker.png": "/gcm-portfolio/static/media/fitnessTracker.33560268.png",
+    "static/media/goodReadme.png": "/gcm-portfolio/static/media/goodReadme.ce54f67e.png",
+    "static/media/noteTaker.png": "/gcm-portfolio/static/media/noteTaker.c295c36e.png",
+    "static/media/passwordGenerator.png": "/gcm-portfolio/static/media/passwordGenerator.70843040.png",
+    "static/media/petAdoption.png": "/gcm-portfolio/static/media/petAdoption.4edf0ea8.png",
+    "static/media/planet.png": "/gcm-portfolio/static/media/planet.4a4bae4c.png",
+    "static/media/portfolioPic.jpg": "/gcm-portfolio/static/media/portfolioPic.c115b05f.jpg",
+    "static/media/teamProfile.png": "/gcm-portfolio/static/media/teamProfile.f3e925a9.png",
+    "static/media/weatherDashboard.png": "/gcm-portfolio/static/media/weatherDashboard.40fcebb9.png",
+    "static/media/workdayScheduler.png": "/gcm-portfolio/static/media/workdayScheduler.1d77d300.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6a70e42.js",
+    "static/js/2.4af99295.chunk.js",
+    "static/css/main.61497217.chunk.css",
+    "static/js/main.1df3a649.chunk.js"
+  ]
+}
