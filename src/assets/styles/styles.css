@@ -4,6 +4,7 @@
 }
 
 .HeroImage-img {
+  /* Photo by Tim Trad on Unsplash */
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   height: 62rem;
   width: 100%;
@@ -134,6 +135,7 @@
 }
 
 .PortfolioPage-HeroImage-img {
+  /* Photo by Kristijan Arsov on Unsplash */
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1583353342061-d43e3a8ee05a?ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80");
   height: 62rem;
   width: 100%;
@@ -150,6 +152,7 @@
 /* ===== Contact.js ===== */
 .Contact-container {
   /* border: 2px solid orangered; */
+  margin-bottom: 3rem;
 }
 
 .Contact-header {
@@ -170,12 +173,29 @@
 }
 
 /* ===== Footer.js ===== */
+
+
 .Footer {
-  border: 3px solid purple;
   height: 5rem;
-  display: flex;
-  justify-content: center;
+  background-color: black;
   align-items: center;
+}
+
+.Footer-copyright {
+  color: white;
+}
+
+.Footer-copyright:hover {
+  color:#1673c9;
+}
+
+.Footer-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Footer-icon:hover {
+  color: #1673c9;
 }
 
 /* ===== PortfolioPage.js ===== */
