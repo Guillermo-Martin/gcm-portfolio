@@ -194,6 +194,7 @@
   height: 5rem;
   background-color: black;
   align-items: center;
+  margin-top: 4rem;
 }
 
 .Footer-copyright {
@@ -215,7 +216,7 @@
 
 /* ===== PortfolioPage.js ===== */
 .PortfolioPage-container {
-  border: 3px solid black;
+  /* border: 3px solid black; */
 }
 
 .PortfolioPage-header {
@@ -231,7 +232,7 @@
 
 .PortfolioPage-row {
   margin-top: 3rem;
-  /* margin-bottom: 4rem; */
+  /* margin-bottom: 3rem; */
   /* border: 3px solid orange; */
   display: flex;
   justify-content: center;
