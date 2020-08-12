@@ -372,4 +372,11 @@
 
 .Credit-container {
   display: flex;
+  font-size: 0.9rem;
+}
+
+.Credit-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
 }
