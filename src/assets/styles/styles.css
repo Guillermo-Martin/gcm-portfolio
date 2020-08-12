@@ -317,6 +317,11 @@
   font-weight: 600;
 }
 
+.Navbar-link:hover {
+  color: #1673c9;
+  text-decoration: none;
+}
+
 /* Hamburger Icon */
 /* https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
 .navbar-light .navbar-toggler {
