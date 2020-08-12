@@ -5,7 +5,6 @@ import './../assets/styles/styles.css';
 function HeroImage(props) {
   return (
     <div className="HeroImage-container">
-
       <div className={props.className}>
         <div className="HeroImage-text">
           
@@ -15,7 +14,6 @@ function HeroImage(props) {
           
         </div>
       </div>
-
     </div>
   );
 }
