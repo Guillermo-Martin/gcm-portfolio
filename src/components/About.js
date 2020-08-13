@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import portfolioPic from './../assets/images/portfolioPic.jpg';
+import resume from './../assets/documents/Guillermo_Martin_Resume.pdf';
 
 
 function About() {
@@ -65,18 +66,13 @@ function About() {
           </div>  
         </Row>
 
-        
-
-        
-          {/* INSERT LINKS TO LEARN MORE AND VIEW RESUME */}
+          {/* RESUME */}
           <Row className="About-learn">
-            <a href="#"><Button variant="dark" className="About-learn-resume">View My Resume.</Button></a>
+            <a href={resume} target="_blank" rel="noopener noreferrer"><Button variant="dark" className="About-learn-resume">View My Resume.</Button></a>
           </Row>
         
       </Container>
-      
-
-      
+    
     </div>
   );
 }
