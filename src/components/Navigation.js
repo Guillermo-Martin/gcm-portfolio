@@ -11,18 +11,18 @@ function Navigation() {
 
         <Navbar expand="lg" fixed="top" className="Navbar">
         
-          <Navbar.Brand><Link to='/' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand>
+          <Navbar.Brand><Link to='/gcm-portfolio' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand>
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           {/* Links */}
           <Navbar.Collapse className="justify-content-end">
               <Nav.Item>
-                <Nav.Link href="/#about" className="Navbar-link">About</Nav.Link>
+                <Nav.Link href="/gcm-portfolio/#about" className="Navbar-link">About</Nav.Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="/portfolio" className="Navbar-link">Portfolio</Nav.Link>
+                <Nav.Link href="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Nav.Link>
               </Nav.Item>
           </Navbar.Collapse>
         </Navbar>

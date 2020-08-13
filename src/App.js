@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div className="App">
         <Navigation />
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/portfolio' component={PortfolioPage} />
+        <Route exact path='/gcm-portfolio' component={HomePage} />
+        <Route exact path='/gcm-portfolio/portfolio' component={PortfolioPage} />
         <Footer />
       </div>
     </Router>

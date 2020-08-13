@@ -11,7 +11,7 @@ function Footer() {
       </Nav.Item>
 
       <Nav.Item>
-        <Nav.Link href="https://github.com/Guillermo-Martin" target="_blank" rel="noopener noreferrer"><i className="fab fa-github Footer-icon"></i></Nav.Link>
+        <Nav.Link href="/gcm-portfolio/" target="_blank" rel="noopener noreferrer"><i className="fab fa-github Footer-icon"></i></Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link href="https://www.linkedin.com/in/guillermo-martin-10441046/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin Footer-icon"></i></Nav.Link>
