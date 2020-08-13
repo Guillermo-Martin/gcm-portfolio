@@ -23,7 +23,7 @@ function Navigation() {
 
               <Nav.Item>
                 {/* <Nav.Link href="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Nav.Link> */}
-                <Nav.Link><Link to="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Link></Nav.Link>
+                <Link to="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Link>
               </Nav.Item>
           </Navbar.Collapse>
         </Navbar>
