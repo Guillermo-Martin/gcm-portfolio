@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gcm-portfolio/static/css/main.61497217.chunk.css",
+    "main.css": "/gcm-portfolio/static/css/main.68a4c508.chunk.css",
     "main.js": "/gcm-portfolio/static/js/main.3559d5f0.chunk.js",
     "main.js.map": "/gcm-portfolio/static/js/main.3559d5f0.chunk.js.map",
     "runtime-main.js": "/gcm-portfolio/static/js/runtime-main.f6a70e42.js",
@@ -8,9 +8,9 @@
     "static/js/2.4af99295.chunk.js": "/gcm-portfolio/static/js/2.4af99295.chunk.js",
     "static/js/2.4af99295.chunk.js.map": "/gcm-portfolio/static/js/2.4af99295.chunk.js.map",
     "index.html": "/gcm-portfolio/index.html",
-    "precache-manifest.f4a24ec1eb105eeb5dbea091e86447fa.js": "/gcm-portfolio/precache-manifest.f4a24ec1eb105eeb5dbea091e86447fa.js",
+    "precache-manifest.222b352faa9531131f61c67d056b039a.js": "/gcm-portfolio/precache-manifest.222b352faa9531131f61c67d056b039a.js",
     "service-worker.js": "/gcm-portfolio/service-worker.js",
-    "static/css/main.61497217.chunk.css.map": "/gcm-portfolio/static/css/main.61497217.chunk.css.map",
+    "static/css/main.68a4c508.chunk.css.map": "/gcm-portfolio/static/css/main.68a4c508.chunk.css.map",
     "static/js/2.4af99295.chunk.js.LICENSE.txt": "/gcm-portfolio/static/js/2.4af99295.chunk.js.LICENSE.txt",
     "static/media/blogSite.png": "/gcm-portfolio/static/media/blogSite.6486816b.png",
     "static/media/codeQuiz.png": "/gcm-portfolio/static/media/codeQuiz.ea164c05.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6a70e42.js",
     "static/js/2.4af99295.chunk.js",
-    "static/css/main.61497217.chunk.css",
+    "static/css/main.68a4c508.chunk.css",
     "static/js/main.3559d5f0.chunk.js"
   ]
 }
