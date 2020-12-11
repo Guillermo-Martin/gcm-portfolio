@@ -1,10 +1,10 @@
 import React from 'react';
-import HeroImage from './HeroImage';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import HorizontalRule from './HorizontalRule';
-import Credit from './Credit';
+import HeroImage from '../HeroImage';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import HorizontalRule from '../HorizontalRule';
+import Credit from '../Credit';
 
 
 function HomePage() {
