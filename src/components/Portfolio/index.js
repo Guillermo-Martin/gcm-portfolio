@@ -1,12 +1,12 @@
 import React from 'react';
-import ImageCard from './ImageCard';
+import ImageCard from '../ImageCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import passwordGenerator from './../assets/images/passwordGenerator.png';
-import weatherDashboard from './../assets/images/weatherDashboard.png';
-import blogSite from './../assets/images/blogSite.png';
+import passwordGenerator from './../../assets/images/passwordGenerator.png';
+import weatherDashboard from './../../assets/images/weatherDashboard.png';
+import blogSite from './../../assets/images/blogSite.png';
 
 function Portfolio() {
   return (

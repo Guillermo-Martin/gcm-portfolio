@@ -1,11 +1,11 @@
 import React from 'react';
-import TextCard from './TextCard';
+import TextCard from '../TextCard';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import portfolioPic from './../assets/images/portfolioPic.jpg';
-import resume from './../assets/documents/Guillermo_Martin_Resume.pdf';
+import portfolioPic from './../../assets/images/portfolioPic.jpg';
+import resume from './../../assets/documents/Guillermo_Martin_Resume.pdf';
 
 
 function About() {
