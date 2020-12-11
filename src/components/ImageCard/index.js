@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import './styles.css';
 
 function ImageCard(props) {
   // save props.link to variable to use for conditional rendering

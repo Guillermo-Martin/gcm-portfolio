@@ -1,0 +1,23 @@
+.Footer {
+  height: 5rem;
+  background-color: black;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.Footer-copyright {
+  color: white;
+}
+
+.Footer-copyright:hover {
+  color:#1673c9;
+}
+
+.Footer-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Footer-icon:hover {
+  color: #1673c9;
+}

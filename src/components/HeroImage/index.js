@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import './../../assets/styles/styles.css';
+// import './../../assets/styles/styles.css';
+import './styles.css';
 
 function HeroImage(props) {
   return (

@@ -1,0 +1,41 @@
+.Contact-container {
+  /* border: 2px solid orangered; */
+  margin-bottom: 3rem;
+}
+
+.Contact-header {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.Contact-row-icons {
+  /* border: 3px solid plum; */
+  display: flex;
+  justify-content: center;
+}
+
+.Contact-button {
+  background-color: black;
+  margin: 3rem;
+  font-weight: 600;
+}
+
+.Contact-button:hover {
+  background-color: #1673c9;
+  border-color: #1673c9;
+}
+
+/* ===== FontAwesome Icons ===== */
+.icon {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: black;
+}
+
+.icon:hover {
+  color: #1673c9;
+}
+
+.fa-envelope {
+  margin-right: 0.5rem;
+}

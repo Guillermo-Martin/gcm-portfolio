@@ -1,0 +1,54 @@
+/* Hover effect for ImageCard component */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade */
+/* the text is hidden using this */
+.ImageCard-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1))
+}
+
+.ImageCard-container {
+  /* border: 3px solid green; */
+}
+
+/* when you hover over the div, the text becomes visible */
+.ImageCard-container:hover .ImageCard-overlay {
+  opacity: 1;
+}
+
+.ImageCard-title {
+  /* border: 3px solid blue; */
+  font-size: 1.7rem;
+  width: 27rem;
+}
+
+.ImageCard-text {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.ImageCard-tech {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.ImageCard-img {
+  height: 20rem;
+}
+
+.ImageCard-icon {
+  font-size: 1.6rem;
+  margin: 0 0.5rem;
+  margin-top: 1.5rem;
+  color: white;
+}

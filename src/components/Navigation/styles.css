@@ -1,0 +1,26 @@
+.Navbar {
+  background-color: black;
+}
+
+.Navbar-link {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+.Navbar-link:hover {
+  color: #1673c9;
+  text-decoration: none;
+}
+
+/* Hamburger Icon */
+/* https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border: 2px solid white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
