@@ -1,0 +1,18 @@
+.TextCard {
+  border: none;
+}
+
+.TextCard-image {
+  opacity: 0;
+  height: 15rem;
+}
+
+.TextCard-text {
+  color: black;
+  width: 29rem;
+  text-align: left;
+}
+
+.TextCard-text-div {
+  height: 10rem;
+}

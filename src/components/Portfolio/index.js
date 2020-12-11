@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import passwordGenerator from './../../assets/images/passwordGenerator.png';
 import weatherDashboard from './../../assets/images/weatherDashboard.png';
 import blogSite from './../../assets/images/blogSite.png';
+import './styles.css';
 
 function Portfolio() {
   return (

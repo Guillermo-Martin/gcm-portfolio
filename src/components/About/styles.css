@@ -1,0 +1,49 @@
+.About-header {
+  font-size: 6rem;
+  margin: 3rem;
+}
+
+.About-learn {
+  display: flex;
+  justify-content: center;
+}
+
+.About-skills {
+  font-size: 4.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.About-text-row {
+  display: flex;
+  justify-content: center;
+}
+
+.About-icons-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.About-icon {
+  font-size: 5rem;
+}
+
+.About-icon-div {
+  width: 7rem;
+  margin: 1rem;
+}
+
+.About-learn-resume{
+  background-color: black;
+  font-weight: 600;
+}
+
+.About-learn-resume:hover {
+  background-color: #1673c9;
+  border-color: #1673c9;
+}
+
+.About-img {
+  height: 22rem;
+}

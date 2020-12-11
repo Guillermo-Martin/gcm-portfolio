@@ -18,6 +18,7 @@ import employeeDirectory from './../../assets/images/employeeDirectory.png';
 import petAdoption from './../../assets/images/petAdoption.png';
 import blogSite from './../../assets/images/blogSite.png';
 import planet from './../../assets/images/planet.png';
+import './styles.css';
 
 function PortfolioPage() {
   return (

@@ -1,0 +1,22 @@
+.PortfolioPage-container {
+  /* border: 3px solid black; */
+}
+
+.PortfolioPage-header {
+  font-size: 6rem;
+  /* margin: 3rem; */
+  margin-bottom: 3rem;
+}
+
+.PortfolioPage-start {
+  font-size: 6rem;
+  margin: 3rem 0;
+}
+
+.PortfolioPage-row {
+  margin-top: 3rem;
+  /* margin-bottom: 3rem; */
+  /* border: 3px solid orange; */
+  display: flex;
+  justify-content: center;
+}
