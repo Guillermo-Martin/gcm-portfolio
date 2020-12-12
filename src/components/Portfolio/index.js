@@ -49,7 +49,6 @@ function Portfolio() {
         </Row>
         
         {/* Link to see more */}
-        {/* <Link to='/portfolio'><span className="Portfolio-link">See More.</span></Link> */}
         <Link to='/gcm-portfolio/portfolio'><Button variant="dark" className="Portfolio-button">See More.</Button></Link>
       </Container>
       

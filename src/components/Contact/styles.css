@@ -1,5 +1,4 @@
 .Contact-container {
-  /* border: 2px solid orangered; */
   margin-bottom: 3rem;
 }
 
@@ -9,7 +8,6 @@
 }
 
 .Contact-row-icons {
-  /* border: 3px solid plum; */
   display: flex;
   justify-content: center;
 }

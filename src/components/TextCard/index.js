@@ -16,7 +16,6 @@ function TextCard(props) {
           {/* Content */}
           <div >
             <Card.Text className="ImageCard-text">
-              {/* <Card.Title className="TextCard-title">Title</Card.Title> */}
               <p className="TextCard-text">
                 <div className="TextCard-text-div">{props.text}</div>
               </p>
