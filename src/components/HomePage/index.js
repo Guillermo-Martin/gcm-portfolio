@@ -12,7 +12,7 @@ function HomePage() {
     <div>
       <HeroImage 
         name="Hi, I'm Guillermo."
-        intro="I'm a front-end web developer based in the Bay Area."
+        intro="I'm a full stack Web developer from the San Francisco Bay Area."
         className="HeroImage-img"
       />
       <Credit 

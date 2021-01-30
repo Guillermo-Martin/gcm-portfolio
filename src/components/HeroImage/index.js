@@ -4,12 +4,13 @@ import './styles.css';
 function HeroImage(props) {
   return (
     <div className="HeroImage-container">
+      {/* For setting the hero image */}
       <div className={props.className}>
         <div className="HeroImage-text">
           
           {/* Name and text */}
-          <h1 className="HeroImage-text-name">{props.name}</h1>
-          <h2 className="HeroImage-text-intro">{props.intro}</h2>
+          <h1>{props.name}</h1>
+          <p>{props.intro}</p>
           
         </div>
       </div>

@@ -5,29 +5,31 @@
 .HeroImage-img {
   /* Photo by Tim Trad on Unsplash */
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
-  height: 62rem;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .HeroImage-text {
-  margin-top: 20rem;
   padding-left: 3rem;
   color: white;
+  /* https://stackoverflow.com/questions/28455100/how-to-center-div-vertically-inside-of-absolutely-positioned-parent-div */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.HeroImage-text-name {
+.HeroImage-text h1 {
   font-size: 10rem;
   text-align: left;
   margin-bottom: 0;
 }
 
-.HeroImage-text-intro {
+.HeroImage-text p {
   font-size: 2rem;
   text-align: left;
-  margin-top: 0;
+  padding-left: 0.6rem;
 }
 
 .HeroImage-learn {
@@ -42,4 +44,37 @@
   display: flex;
   width: 75%;
   justify-content: flex-end;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media screen and (max-width: 845px) {
+  .HeroImage-text {
+    padding-left: 0;
+  }
+
+  .HeroImage-text h1 {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  .HeroImage-text p {
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .HeroImage-img {
+    height: 75vh;
+  }
+
+  .HeroImage-text h1 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+  }
+
+  .HeroImage-text p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
 }
