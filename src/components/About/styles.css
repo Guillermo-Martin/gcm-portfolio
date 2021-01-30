@@ -17,6 +17,15 @@
 .About-text-row {
   display: flex;
   justify-content: center;
+  /* border: 3px solid red; */
+  margin-top: 2rem;
+}
+
+.About-text-row p {
+  /* border: 3px solid black; */
+  text-align: left;
+  width: 25rem;
+  padding: 2rem;
 }
 
 .About-icons-row {
@@ -49,18 +58,30 @@
 }
 
 /* ===== MEDIA QUERIES =====  */
+@media screen and (max-width: 1199px) {
+  .About-text-row p, .About-text-extra {
+    width: 100%;
+    padding: 1rem 8rem;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 845px) {
   .About-img {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
 
   .About-text-row p {
     /* border: 3px solid blue; */
+    width: 100%;
     padding: 1rem 3rem;
+    text-align: center;
   }
 
   .About-text-extra {
     /* border: 3px solid black; */
+    width: 100%;
+    padding: 1rem 3rem;
     margin-top: 1rem;
   }
 }

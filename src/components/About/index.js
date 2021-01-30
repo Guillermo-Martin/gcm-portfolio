@@ -35,8 +35,6 @@ function About() {
           <p>
             I recently earned my certificate in Full Stack Web Development from the University of California, Berkeley Extension.  During my studies, I developed an intense passion for front-end web development and design. Inspired by simple, clean, and sleek designs, I’m motivated to learn and create the same.
           </p>
-
-          
         </Row>
         
         <p className="About-text-extra">
