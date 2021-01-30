@@ -1,6 +1,6 @@
 .TextCard {
-  /* border: none; */
-  border: 3px solid black;
+  border: none;
+  /* border: 3px solid black; */
 }
 
 .TextCard-image {
@@ -19,14 +19,22 @@
 }
 
 /* ===== MEDIA QUERIES ===== */
-@media screen and (max-width: 455px) {
-  .TextCard {
-    border: none;
+@media screen and (max-width: 845px) {
+  /* .TextCard {
+    width: 1000px;
+  } */
+
+  .TextCard-text {
+    text-align: center;
+    /* border: 3px solid black; */
   }
+}
+
+@media screen and (max-width: 455px) {
 
   .TextCard-text {
     /* border: 1px solid black; */
-    text-align: center;
+    /* text-align: center; */
     /* margin: 0 auto; */
   }
 }

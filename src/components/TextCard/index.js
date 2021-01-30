@@ -4,11 +4,7 @@ import './styles.css';
 
 function TextCard(props) {
   return (
-    <div>
-      <Card className="TextCard">
-        <Card.Body className="TextCard-text">{props.text}</Card.Body>
-      </Card>
-    </div>
+    <p className="TextCard-text">{props.text}</p>  
   );
 }
 

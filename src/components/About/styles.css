@@ -49,6 +49,22 @@
 }
 
 /* ===== MEDIA QUERIES =====  */
+@media screen and (max-width: 845px) {
+  .About-img {
+    margin-bottom: 3rem;
+  }
+
+  .About-text-row p {
+    /* border: 3px solid blue; */
+    padding: 1rem 3rem;
+  }
+
+  .About-text-extra {
+    /* border: 3px solid black; */
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 455px) {
   .About-header {
     font-size: 3.5rem;
