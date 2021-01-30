@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import HomePage from './components/HomePage';
-import PortfolioPage from './components/PortfolioPage';
-import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
+import Navigation from '../Navigation';
+import HomePage from '../HomePage';
+import PortfolioPage from '../PortfolioPage';
+import Footer from '../Footer';
+import ScrollToTop from '../ScrollToTop';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import './App.css';
+import './styles.css';
 
 function App() {
   return (
