@@ -40,7 +40,25 @@
 
 .About-icon-div {
   width: 7rem;
+  height: 8rem;
   margin: 1rem;
+}
+
+.About-icon-div-image {
+    margin: 0 auto;
+    height: 80px;
+    width: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.About-icon-div img {
+  max-width: 100px;
+  max-height: 80px;
+  vertical-align: middle;
+  /* border: 1px solid black; */
 }
 
 .About-learn-resume{
@@ -56,6 +74,27 @@
 .About-img {
   height: 22rem;
 }
+
+/* .About-icon-div-express, .About-icon-div-mysql {
+  height: 120px;
+  width: 112px;
+}
+
+.About-icon-div-express img {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.About-icon-div-mysql img {
+  max-width: 80px;
+  max-height: 80px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+} */
+/* .expressIcon {
+  width: 80px;
+} */
 
 /* ===== MEDIA QUERIES =====  */
 @media screen and (max-width: 1199px) {
@@ -100,5 +139,11 @@
     /* border: 3px solid black; */
     margin-top: 1rem;
     padding: 1rem;
+  }
+
+  .About-skills {
+    font-size: 3.5rem;
+    border: 3px solid black;
+    margin-top: 2rem;
   }
 }

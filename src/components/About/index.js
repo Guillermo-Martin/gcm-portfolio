@@ -7,6 +7,12 @@ import { Container, Row, Button } from 'react-bootstrap';
 import portfolioPic from './../../assets/images/portfolioPic.jpg';
 import resume from './../../assets/documents/Guillermo_Martin_Resume.pdf';
 import './styles.css';
+import express from './../../assets/images/expressIcon.png';
+import mySQL from './../../assets/images/mySQLIcon.png';
+import mongoDB from './../../assets/images/mongoDBIcon.png';
+import jQuery from './../../assets/images/jQueryIcon.png';
+import heroku from './../../assets/images/herokuIcon.png';
+import postman from './../../assets/images/postmanIcon.png';
 
 
 function About() {
@@ -64,7 +70,62 @@ function About() {
           <div className="About-icon-div">
             <i className="About-icon fab fa-react"></i>
             <p>React</p>
-          </div>  
+          </div>
+          <div className="About-icon-div">
+            <i class="About-icon fab fa-node"></i>
+            <p>Node.js</p>
+          </div>
+          <div className="About-icon-div About-icon-div-express">
+            <div className="About-icon-div-image">
+              <img src={express} alt="express icon" />
+            </div>
+            <p>Express.js</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              <img src={mySQL} alt="mysql icon" />
+            </div>
+            <p>MySQL</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              <img src={mongoDB} alt="mongodb icon" />
+            </div>
+            <p>MongoDB</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              <img src={jQuery} alt="mongodb icon" />
+            </div>
+            <p>jQuery</p>
+          </div>
+          <div className="About-icon-div">
+            <i class="About-icon fab fa-github"></i>
+            <p>Git/GitHub</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              <img src={heroku} alt="mongodb icon" />
+            </div>
+            <p>Heroku</p>
+          </div>
+          <div className="About-icon-div">
+            <i class="About-icon fab fa-npm"></i>
+            <p>npm</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              mongoose
+            </div>
+            <p>Mongoose</p>
+          </div>
+          <div className="About-icon-div About-icon-div-mysql">
+            <div className="About-icon-div-image">
+              <img src={postman} alt="mongodb icon" />
+            </div>
+            <p>Postman</p>
+          </div>
+          
         </Row>
 
           {/* RESUME */}
@@ -79,3 +140,5 @@ function About() {
 }
 
 export default About;
+
+// icons from https://fontawesome.com/, https://www.cleanpng.com/, https://www.pngaaa.com/detail/95042
