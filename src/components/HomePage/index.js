@@ -19,6 +19,8 @@ function HomePage() {
         name="Tim Trad"
         link="https://unsplash.com/@timtrad"
       />
+
+      
       <About />
       <HorizontalRule />
       <Portfolio />

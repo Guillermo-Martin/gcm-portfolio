@@ -1,9 +1,9 @@
 import React from 'react';
 import TextCard from '../TextCard';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
+import { Container, Row, Button } from 'react-bootstrap';
+// import Row from 'react-bootstrap/Row';
+// import Button from 'react-bootstrap/Button';
 import portfolioPic from './../../assets/images/portfolioPic.jpg';
 import resume from './../../assets/documents/Guillermo_Martin_Resume.pdf';
 import './styles.css';
@@ -24,7 +24,8 @@ function About() {
         <Row className="About-text-row">
           {/* First Section */}
           <TextCard 
-            text="I’m from Virginia Beach, Virginia and now live in the Bay Area in California.  I have a Bachelor’s in Biology from James Madison University and a Master’s in Forensic Science from the University of Central Oklahoma."  
+            text="I’m from Virginia Beach, Virginia and now live in the Bay Area in California.  I have a Bachelor’s in Biology from James Madison University and a Master’s in Forensic Science from the University of Central Oklahoma."
+              
           />
           {/* Second Section */}
           <TextCard 

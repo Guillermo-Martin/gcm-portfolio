@@ -47,3 +47,21 @@
 .About-img {
   height: 22rem;
 }
+
+/* ===== MEDIA QUERIES =====  */
+@media screen and (max-width: 455px) {
+  .About-header {
+    font-size: 3.5rem;
+  }
+
+  .About-img {
+    height: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  .About-text-row p {
+    /* border: 3px solid black; */
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}
