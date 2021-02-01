@@ -54,6 +54,14 @@
     text-align: center;
 }
 
+.dark-icon {
+  filter: brightness(0%);
+}
+
+.postman {
+  filter: saturate(0%);
+}
+
 .About-icon-div img {
   max-width: 100px;
   max-height: 80px;

@@ -13,6 +13,7 @@ import mongoDB from './../../assets/images/mongoDBIcon.png';
 import jQuery from './../../assets/images/jQueryIcon.png';
 import heroku from './../../assets/images/herokuIcon.png';
 import postman from './../../assets/images/postmanIcon.png';
+import HorizontalRule from './../HorizontalRule';
 
 
 function About() {
@@ -47,9 +48,11 @@ function About() {
           In my spare time, I enjoy playing video games, fencing, reading, tinkering around with code, baking, and exploring all the Bay Area has to offer.
         </p>
       
+        <HorizontalRule />
 
         <h2 className="About-skills">Skills</h2>
 
+        <h3>Front End</h3>
         <Row className="About-icons-row">
           <div className="About-icon-div">
             <i className="About-icon fab fa-html5"></i>
@@ -64,6 +67,12 @@ function About() {
             <p>JavaScript</p>
           </div>
           <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
+              <img src={jQuery} alt="jquery icon" />
+            </div>
+            <p>jQuery</p>
+          </div>
+          <div className="About-icon-div">
             <i className="About-icon fab fa-bootstrap"></i>
             <p>Bootstrap</p>
           </div>
@@ -71,41 +80,49 @@ function About() {
             <i className="About-icon fab fa-react"></i>
             <p>React</p>
           </div>
+        </Row>
+        
+        <h3>Back End</h3>
+        <Row className="About-icons-row">
           <div className="About-icon-div">
             <i class="About-icon fab fa-node"></i>
             <p>Node.js</p>
           </div>
-          <div className="About-icon-div About-icon-div-express">
-            <div className="About-icon-div-image">
+          <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
               <img src={express} alt="express icon" />
             </div>
             <p>Express.js</p>
           </div>
-          <div className="About-icon-div About-icon-div-mysql">
-            <div className="About-icon-div-image">
+          <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
               <img src={mySQL} alt="mysql icon" />
             </div>
             <p>MySQL</p>
           </div>
-          <div className="About-icon-div About-icon-div-mysql">
-            <div className="About-icon-div-image">
+          <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
               <img src={mongoDB} alt="mongodb icon" />
             </div>
             <p>MongoDB</p>
           </div>
-          <div className="About-icon-div About-icon-div-mysql">
-            <div className="About-icon-div-image">
-              <img src={jQuery} alt="mongodb icon" />
+          <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
+              mongoose
             </div>
-            <p>jQuery</p>
+            <p>Mongoose</p>
           </div>
+        </Row>
+
+        <h3>Technologies</h3>
+        <Row className="About-icons-row">
           <div className="About-icon-div">
             <i class="About-icon fab fa-github"></i>
             <p>Git/GitHub</p>
           </div>
-          <div className="About-icon-div About-icon-div-mysql">
-            <div className="About-icon-div-image">
-              <img src={heroku} alt="mongodb icon" />
+          <div className="About-icon-div">
+            <div className="About-icon-div-image dark-icon">
+              <img src={heroku} alt="heroku icon" />
             </div>
             <p>Heroku</p>
           </div>
@@ -113,19 +130,17 @@ function About() {
             <i class="About-icon fab fa-npm"></i>
             <p>npm</p>
           </div>
-          <div className="About-icon-div About-icon-div-mysql">
+          <div className="About-icon-div">
             <div className="About-icon-div-image">
-              mongoose
-            </div>
-            <p>Mongoose</p>
-          </div>
-          <div className="About-icon-div About-icon-div-mysql">
-            <div className="About-icon-div-image">
-              <img src={postman} alt="mongodb icon" />
+              <img src={postman} alt="postman icon" className="postman"/>
             </div>
             <p>Postman</p>
           </div>
-          
+        </Row>
+
+        <h3>Fundamentals</h3>
+        <Row className="About-icons-row">
+          <p>Jest, Redux, Authentication, WordPress, Squarespace</p>
         </Row>
 
           {/* RESUME */}
