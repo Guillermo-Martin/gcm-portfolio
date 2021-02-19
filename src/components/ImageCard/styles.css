@@ -1,3 +1,8 @@
+.card {
+  width: 30rem;
+  margin: 0.5rem;
+}
+
 /* Hover effect for ImageCard component */
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_fade */
 /* the text is hidden using this */
@@ -46,4 +51,29 @@
   margin: 0 0.5rem;
   margin-top: 1.5rem;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .ImageCard-title {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .ImageCard-text {
+    width: 100%;
+    padding: auto 3rem;
+  }
+
+  .ImageCard-text p {
+    padding: 0 1rem;
+  }
+
+  .ImageCard-tech {
+    padding: 0 1rem;
+  }
 }

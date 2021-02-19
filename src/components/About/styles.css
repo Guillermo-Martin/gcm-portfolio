@@ -81,28 +81,8 @@
 
 .About-img {
   height: 22rem;
+  
 }
-
-/* .About-icon-div-express, .About-icon-div-mysql {
-  height: 120px;
-  width: 112px;
-}
-
-.About-icon-div-express img {
-  width: 100%;
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
-.About-icon-div-mysql img {
-  max-width: 80px;
-  max-height: 80px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-} */
-/* .expressIcon {
-  width: 80px;
-} */
 
 /* ===== MEDIA QUERIES =====  */
 @media screen and (max-width: 1199px) {
@@ -151,7 +131,7 @@
 
   .About-skills {
     font-size: 3.5rem;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin-top: 2rem;
   }
 }
