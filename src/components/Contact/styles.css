@@ -37,3 +37,10 @@
 .fa-envelope {
   margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 455px) {
+  .Contact-header {
+    font-size: 3.5rem;
+    /* color: blue; */
+  }
+}
