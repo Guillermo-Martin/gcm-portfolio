@@ -21,3 +21,10 @@
 .Footer-icon:hover {
   color: #1673c9;
 }
+
+@media screen and (max-width: 455px) {
+  .Footer {
+    height: 7rem;
+    padding: 1rem 0;
+  }
+}
