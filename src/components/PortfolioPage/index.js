@@ -134,14 +134,14 @@ function PortfolioPage() {
       <p>A collection of projects that I collaborated on.</p>
       <Container fluid className="PortfolioPage-row">
         <Row> 
-        <ImageCard
+        {/* <ImageCard
             src={petAdoption} 
             title="Pet Adoption"
             description="A web application for finding dogs or cats to adopt."
             tech="HTML, CSS, JavaScript, jQuery, Foundation, AJAX, PetFinder API, and GitHub Pages.  (Note: The API key required to run this application may be expired.)"
             link="https://guillermo-martin.github.io/project1/"
             github="https://github.com/Guillermo-Martin/project1"
-        />
+        /> */}
         <ImageCard
             src={blogSite} 
             title="Blog Site"

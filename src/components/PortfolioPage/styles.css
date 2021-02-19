@@ -13,3 +13,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 455px) {
+  .PortfolioPage-start, .PortfolioPage-header {
+    font-size: 3.5rem;
+    /* color: blue; */
+  }
+}
