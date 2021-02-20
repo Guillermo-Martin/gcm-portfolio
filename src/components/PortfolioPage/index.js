@@ -32,8 +32,8 @@ function PortfolioPage() {
       />
 
       <Credit 
-        name="Kristijan Arsov"
-        link="https://unsplash.com/@aarsoph"
+        name="Joshua Sortino"
+        link="https://unsplash.com/@sortino"
       />
 
       {/* Starting Out Section  */}

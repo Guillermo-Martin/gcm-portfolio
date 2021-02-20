@@ -3,8 +3,8 @@
 }
 
 .HeroImage-img {
-  /* Photo by Tim Trad on Unsplash */
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+  /* Photo by Joonyeop Baek on Unsplash */
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80");
   height: 100vh;
   width: 100%;
   background-size: cover;

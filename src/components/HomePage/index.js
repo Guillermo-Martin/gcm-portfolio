@@ -16,8 +16,8 @@ function HomePage() {
         className="HeroImage-img"
       />
       <Credit 
-        name="Tim Trad"
-        link="https://unsplash.com/@timtrad"
+        name="Joonyeop Baek"
+        link="https://unsplash.com/@jybaek"
       />
 
       
