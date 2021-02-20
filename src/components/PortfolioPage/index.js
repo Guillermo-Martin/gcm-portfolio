@@ -132,16 +132,8 @@ function PortfolioPage() {
       <h2 className="PortfolioPage-header">Teamwork.</h2>
       <p>Makes the dreams work.</p>
       <p>A collection of projects that I collaborated on.</p>
-      <Container fluid className="PortfolioPage-row">
-        <Row> 
-        {/* <ImageCard
-            src={petAdoption} 
-            title="Pet Adoption"
-            description="A web application for finding dogs or cats to adopt."
-            tech="HTML, CSS, JavaScript, jQuery, Foundation, AJAX, PetFinder API, and GitHub Pages.  (Note: The API key required to run this application may be expired.)"
-            link="https://guillermo-martin.github.io/project1/"
-            github="https://github.com/Guillermo-Martin/project1"
-        /> */}
+      <Container fluid >
+        <Row className="PortfolioPage-row">
         <ImageCard
             src={blogSite} 
             title="Blog Site"
@@ -161,6 +153,7 @@ function PortfolioPage() {
           
         </Row>
       </Container>
+      
 
       {/* Personal Projects */}
       {/* <h2 className="PortfolioPage-header">Growing.</h2>
