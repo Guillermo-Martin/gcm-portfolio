@@ -1,12 +1,8 @@
 import React from 'react';
-// import TextCard from '../TextCard';
 import Image from 'react-bootstrap/Image';
 import { Container, Row, Button } from 'react-bootstrap';
-// import Row from 'react-bootstrap/Row';
-// import Button from 'react-bootstrap/Button';
 import portfolioPic from './../../assets/images/portfolioPic.jpg';
 import resume from './../../assets/documents/Guillermo_Martin_Resume.pdf';
-import './styles.css';
 import express from './../../assets/images/expressIcon.png';
 import mySQL from './../../assets/images/mySQLIcon.png';
 import mongoDB from './../../assets/images/mongoDBIcon.png';
@@ -14,7 +10,7 @@ import jQuery from './../../assets/images/jQueryIcon.png';
 import heroku from './../../assets/images/herokuIcon.png';
 import postman from './../../assets/images/postmanIcon.png';
 import HorizontalRule from './../HorizontalRule';
-
+import './styles.css';
 
 function About() {
   return (

@@ -8,7 +8,6 @@ function ImageCard(props) {
 
   return (
     <div className="ImageCard-container">
-      {/* <Card style={{ width: '30rem', margin: "0.5rem" }}> */}
       <Card>
         {/* Image */}
         <Card.Img 

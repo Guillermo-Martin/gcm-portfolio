@@ -6,7 +6,6 @@ import Contact from '../Contact';
 import HorizontalRule from '../HorizontalRule';
 import Credit from '../Credit';
 
-
 function HomePage() {
   return (
     <div>
@@ -20,7 +19,6 @@ function HomePage() {
         link="https://unsplash.com/@jybaek"
       />
 
-      
       <About />
       <HorizontalRule />
       <Portfolio />

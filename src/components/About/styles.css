@@ -1,6 +1,7 @@
 .About-header {
   font-size: 6rem;
   margin: 3rem;
+  padding-top: 4rem;
 }
 
 .About-learn {
@@ -17,12 +18,10 @@
 .About-text-row {
   display: flex;
   justify-content: center;
-  /* border: 3px solid red; */
   margin-top: 2rem;
 }
 
 .About-text-row p {
-  /* border: 3px solid black; */
   text-align: left;
   width: 25rem;
   padding: 2rem;
@@ -50,7 +49,6 @@
     width: inherit;
     display: table-cell;
     vertical-align: middle;
-    /* border: 1px solid red; */
     text-align: center;
 }
 
@@ -66,7 +64,6 @@
   max-width: 100px;
   max-height: 80px;
   vertical-align: middle;
-  /* border: 1px solid black; */
 }
 
 .About-learn-resume{
@@ -99,14 +96,12 @@
   }
 
   .About-text-row p {
-    /* border: 3px solid blue; */
     width: 100%;
     padding: 1rem 3rem;
     text-align: center;
   }
 
   .About-text-extra {
-    /* border: 3px solid black; */
     width: 100%;
     padding: 1rem 3rem;
     margin-top: 1rem;
@@ -124,15 +119,12 @@
   }
 
   .About-text-row p {
-    /* border: 3px solid black; */
     margin-top: 1rem;
     padding: 1rem;
   }
 
   .About-skills {
     font-size: 3.5rem;
-    /* border: 3px solid black; */
-    /* margin-top: 2rem; */
     margin-bottom: 3rem;
   }
 }

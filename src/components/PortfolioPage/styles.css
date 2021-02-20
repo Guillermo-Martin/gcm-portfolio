@@ -23,6 +23,7 @@
   background-position: center;
 }
 
+/* ===== MEDIA QUERIES ===== */
 @media screen and (max-width: 455px) {
   .PortfolioPage-HeroImage-img {
     height: 75vh;
@@ -30,6 +31,5 @@
 
   .PortfolioPage-start, .PortfolioPage-header {
     font-size: 3.5rem;
-    /* color: blue; */
   }
 }

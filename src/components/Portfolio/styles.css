@@ -24,9 +24,9 @@
   border-color: #1673c9;
 }
 
+/* ===== MEDIA QUERIES ===== */
 @media screen and (max-width: 455px) {
   .Portfolio-h1 {
     font-size: 3.5rem;
-    /* color: blue; */
   }
 }

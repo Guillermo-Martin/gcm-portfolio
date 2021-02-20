@@ -38,6 +38,7 @@
   margin-right: 0.5rem;
 }
 
+/* ===== MEDIA QUERIES ===== */
 @media screen and (max-width: 455px) {
   .Contact-header {
     font-size: 3.5rem;
