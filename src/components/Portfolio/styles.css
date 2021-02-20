@@ -14,16 +14,6 @@
   font-size: 1.3rem;
 }
 
-.PortfolioPage-HeroImage-img {
-  /* Photo by Kristijan Arsov on Unsplash */
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1583353342061-d43e3a8ee05a?ixlib=rb-1.2.1&auto=format&fit=crop&w=3450&q=80");
-  height: 62rem;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
 .Portfolio-button {
   background-color: black;
   font-weight: 600;
