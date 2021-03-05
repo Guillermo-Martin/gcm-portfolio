@@ -44,7 +44,7 @@ function PortfolioPage() {
             src={passwordGenerator} 
             title="Password Generator"
             description="A web application that uses prompts to generate a random password."
-            tech="Made using: HTML, CSS, JavaScript, and GitHub Pages."
+            tech="HTML, CSS, JavaScript, and GitHub Pages."
             link="https://guillermo-martin.github.io/passwordGenerator/"
             github="https://github.com/Guillermo-Martin/passwordGenerator"
           />
