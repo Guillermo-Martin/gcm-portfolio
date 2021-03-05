@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Guillermo Martin's Portfolio**
 
-## Available Scripts
+# Description
+This is my portfolio and was created to display all of the projects I worked on as a student in the Berkeley Coding Bootcamp at UC Berkeley Extension.  I'll be adding more projects as I continue to grow as a Web developer.
 
-In the project directory, you can run:
+My portfolio can be viewed here:  [Guillermo Martin's Porfolio](https://guillermo-martin.github.io/gcm-portfolio/).
 
-### `npm start`
+# Technologies
+My portfolio was made using [React](https://reactjs.org/), [React Router DOM](https://www.npmjs.com/package/react-router-dom), and [React Bootstrap](https://react-bootstrap.github.io/) and deployed using GitHub pages.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# License
+Licensed under the [MIT License](https://spdx.org/licenses/MIT.html).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Questions
+If you have any questions, feel free to contact me at [gscalica@gmail.com](mailto: "gscalica@gmail.com").
 
-### `npm run build`
+# Screenshots
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ![user image](https://avatars.githubusercontent.com/u/57199674?v=4)
+#### This user's email is private. -->
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Homepage
+![homepage screenshot](./src/assets/images/homePage.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About Me Section
+![about me screenshot](./src/assets/images/aboutMe.png)
 
-### `npm run eject`
+## Portfolio Page
+![portfolio page screenshot](./src/assets/images/portfolioPage.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Project Cards
+![project cards](./src/assets/images/portfolioCards.png)
