@@ -9,12 +9,14 @@ import './styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/gcm-portfolio">
       <ScrollToTop />
       <div className="App">
         <Navigation />
-        <Route exact path='/gcm-portfolio' component={HomePage} />
-        <Route exact path='/gcm-portfolio/portfolio' component={PortfolioPage} />
+        {/* <Route exact path='/gcm-portfolio' component={HomePage} /> */}
+        <Route exact path='/' component={HomePage} />
+        {/* <Route exact path='/gcm-portfolio/portfolio' component={PortfolioPage} /> */}
+        <Route exact path='/portfolio' component={PortfolioPage} />
         <Footer />
       </div>
     </Router>
