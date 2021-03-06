@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import './styles.css';
 
 function Footer() {
-  
   return (
     <Nav className="justify-content-center Footer">
       
