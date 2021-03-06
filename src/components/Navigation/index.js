@@ -10,7 +10,8 @@ function Navigation() {
 
         <Navbar expand="lg" fixed="top" className="Navbar">
         
-          <Navbar.Brand><Link to='/gcm-portfolio' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand>
+          {/* <Navbar.Brand><Link to='/gcm-portfolio' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand> */}
+          <Navbar.Brand><Link to='/' className="Navbar-link">Guillermo Martin</Link></Navbar.Brand>
           
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -21,7 +22,8 @@ function Navigation() {
               </Nav.Item>
 
               <Nav.Item>
-                <Link to="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Link>
+                {/* <Link to="/gcm-portfolio/portfolio" className="Navbar-link">Portfolio</Link> */}
+                <Link to="/portfolio" className="Navbar-link">Portfolio</Link>
               </Nav.Item>
           </Navbar.Collapse>
         </Navbar>
