@@ -16,6 +16,7 @@ import fitnessTracker from './../../assets/images/fitnessTracker.png';
 import employeeDirectory from './../../assets/images/employeeDirectory.png';
 import blogSite from './../../assets/images/blogSite.png';
 import planet from './../../assets/images/planet.png';
+import gameWebsite from "./../../assets/images/gameWebsite.png";
 import './styles.css';
 
 function PortfolioPage() {
@@ -34,9 +35,42 @@ function PortfolioPage() {
         link="https://unsplash.com/@sortino"
       />
 
+      {/* Teamwork Section */}
+      <h2 className="PortfolioPage-header">Teamwork.</h2>
+      <p>A collection of projects that I collaborated on.</p>
+      <Container fluid >
+        <Row className="PortfolioPage-row">
+        <ImageCard
+              src={gameWebsite} 
+              title="The Board Game Project"
+              description="A full stack Web application used to enhance a client’s online presence within the board gaming community."
+              tech="MongoDB, Mongoose, Express.js, React.js, Node.js, React Bootstrap, Axios, React Router DOM, HTML5, CSS3, JavaScript (ES6), Figma, Postman, NPM, and GitHub. ( Note: Use the following guest account to try out the application: Email: testing123@gmail.com, Password: 123123 )"
+              link="https://gamewebsiteapp.herokuapp.com/"
+              github="https://github.com/jngo2013/gameWebsite"
+          />
+          <ImageCard
+              src={blogSite} 
+              title="Blog Site"
+              description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
+              tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
+              link="https://project02blog.herokuapp.com/"
+              github="https://github.com/Kerry-Jr/Project02"
+          />
+          <ImageCard
+              src={planet} 
+              title="Planet"
+              description="A web application for planning and keeping track of events."
+              tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
+              link="https://blooming-atoll-78659.herokuapp.com/"
+              github="https://github.com/jngo2013/Planet"
+          />
+        </Row>
+      </Container>
+
+      <HorizontalRule />
+
       {/* Starting Out Section  */}
       <h2 className="PortfolioPage-start">Starting Out.</h2>
-      <p>We've all got to start somewhere.</p>
       <p>A collection of projects I did as a student.</p>
       <Container fluid >
         <Row className="PortfolioPage-row">
@@ -120,37 +154,12 @@ function PortfolioPage() {
             link="https://infinite-thicket-84161.herokuapp.com/"
             github="https://github.com/Guillermo-Martin/employeeDirectory"
           />
-          
         </Row>
       </Container>
 
-      <HorizontalRule />
+      
 
-      {/* Teamwork Section */}
-      <h2 className="PortfolioPage-header">Teamwork.</h2>
-      <p>Makes the dreams work.</p>
-      <p>A collection of projects that I collaborated on.</p>
-      <Container fluid >
-        <Row className="PortfolioPage-row">
-        <ImageCard
-            src={blogSite} 
-            title="Blog Site"
-            description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
-            tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
-            link="https://project02blog.herokuapp.com/"
-            github="https://github.com/Kerry-Jr/Project02"
-        />
-        <ImageCard
-            src={planet} 
-            title="Planet"
-            description="A web application for planning and keeping track of events."
-            tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
-            link="https://blooming-atoll-78659.herokuapp.com/"
-            github="https://github.com/jngo2013/Planet"
-        />
-          
-        </Row>
-      </Container>
+      
       
 
       {/* Personal Projects */}
