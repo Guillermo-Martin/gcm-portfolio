@@ -17,6 +17,7 @@ import employeeDirectory from './../../assets/images/employeeDirectory.png';
 import blogSite from './../../assets/images/blogSite.png';
 import planet from './../../assets/images/planet.png';
 import gameWebsite from "./../../assets/images/gameWebsite.png";
+import oaklandPeaceCenter from "./../../assets/images/oaklandPeaceCenter.png";
 import './styles.css';
 
 function PortfolioPage() {
@@ -41,29 +42,47 @@ function PortfolioPage() {
       <Container fluid >
         <Row className="PortfolioPage-row">
         <ImageCard
-              src={gameWebsite} 
-              title="The Board Game Project"
-              description="A full stack Web application used to enhance a client’s online presence within the board gaming community."
-              tech="MongoDB, Mongoose, Express.js, React.js, Node.js, React Bootstrap, Axios, React Router DOM, HTML5, CSS3, JavaScript (ES6), Figma, Postman, NPM, and GitHub. ( Note: Use the following guest account to try out the application: Email: testing123@gmail.com, Password: 123123 )"
-              link="https://gamewebsiteapp.herokuapp.com/"
-              github="https://github.com/jngo2013/gameWebsite"
+          src={gameWebsite} 
+          title="The Board Game Project"
+          description="A full stack Web application used to enhance a client’s online presence within the board gaming community."
+          tech="MongoDB, Mongoose, Express.js, React.js, Node.js, React Bootstrap, Axios, React Router DOM, HTML5, CSS3, JavaScript (ES6), Figma, Postman, NPM, and GitHub. ( Note: Use the following guest account to try out the application: Email: testing123@gmail.com, Password: 123123 )"
+          link="https://gamewebsiteapp.herokuapp.com/"
+          github="https://github.com/jngo2013/gameWebsite"
+        />
+          <ImageCard
+            src={blogSite} 
+            title="Blog Site"
+            description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
+            tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
+            link="https://project02blog.herokuapp.com/"
+            github="https://github.com/Kerry-Jr/Project02"
           />
           <ImageCard
-              src={blogSite} 
-              title="Blog Site"
-              description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
-              tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
-              link="https://project02blog.herokuapp.com/"
-              github="https://github.com/Kerry-Jr/Project02"
+            src={planet} 
+            title="Planet"
+            description="A web application for planning and keeping track of events."
+            tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
+            link="https://blooming-atoll-78659.herokuapp.com/"
+            github="https://github.com/jngo2013/Planet"
           />
-          <ImageCard
-              src={planet} 
-              title="Planet"
-              description="A web application for planning and keeping track of events."
-              tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
-              link="https://blooming-atoll-78659.herokuapp.com/"
-              github="https://github.com/jngo2013/Planet"
-          />
+        </Row>
+      </Container>
+
+      <HorizontalRule />
+
+      {/* Personal Projects */}
+      <h2 className="PortfolioPage-header">Personal Projects</h2>
+      <p>A collection of some of my work.</p>
+      <Container fluid className="PortfolioPage-row">
+        <Row>
+        <ImageCard
+          src={oaklandPeaceCenter} 
+          title="Oakland Peace Center"
+          description="I completely redesigned Oakland Peace Center's Website."
+          tech="HTML, CSS, Squarespace"
+          link="https://www.oaklandpeacecenter.org/"
+          github={false}
+        /> 
         </Row>
       </Container>
 
@@ -156,22 +175,6 @@ function PortfolioPage() {
           />
         </Row>
       </Container>
-
-      
-
-      
-      
-
-      {/* Personal Projects */}
-      {/* <h2 className="PortfolioPage-header">Growing.</h2>
-      <p>Continuing the journey.</p>
-      <p>A collection of some of my work.</p>
-      <Container fluid className="PortfolioPage-row">
-        <Row> 
-          
-        </Row>
-      </Container> */}
-
     </div>
   );
 }
