@@ -2,9 +2,9 @@ import React from 'react';
 import ImageCard from '../ImageCard';
 import { Container, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import passwordGenerator from './../../assets/images/passwordGenerator.png';
-import weatherDashboard from './../../assets/images/weatherDashboard.png';
 import blogSite from './../../assets/images/blogSite.png';
+import gameWebsite from './../../assets/images/gameWebsite.png';
+import oaklandPeaceCenter from './../../assets/images/oaklandPeaceCenter.png';
 import './styles.css';
 
 function Portfolio() {
@@ -20,21 +20,21 @@ function Portfolio() {
 
         {/* Project cards */}
         <Row className="Portfolio-row">
-        <ImageCard
-            src={passwordGenerator} 
-            title="Password Generator"
-            description="A web application that uses prompts to generate a random password."
-            tech="HTML, CSS, JavaScript, and GitHub Pages."
-            link="https://guillermo-martin.github.io/passwordGenerator/"
-            github="https://github.com/Guillermo-Martin/passwordGenerator"
+          <ImageCard
+            src={gameWebsite} 
+            title="The Board Game Project"
+            description="A full stack Web application used to enhance a client’s online presence within the board gaming community."
+            tech="MongoDB, Mongoose, Express.js, React.js, Node.js, React Bootstrap, Axios, React Router DOM, HTML5, CSS3, JavaScript (ES6), Figma, Postman, NPM, and GitHub. ( Note: Use the following guest account to try out the application: Email: testing123@gmail.com, Password: 123123 )"
+            link="https://gamewebsiteapp.herokuapp.com/"
+            github="https://github.com/jngo2013/gameWebsite"
           />
           <ImageCard
-            src={weatherDashboard} 
-            title="Weather Dashboard"
-            description="A web application that provides the current weather and a 5-day forecast for a city."
-            tech="HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather API, Moment.js, and GitHub Pages."
-            link="https://guillermo-martin.github.io/weatherDashboard/"
-            github="https://github.com/Guillermo-Martin/weatherDashboard"
+            src={oaklandPeaceCenter} 
+            title="Oakland Peace Center"
+            description="I completely redesigned Oakland Peace Center's Website."
+            tech="HTML, CSS, Squarespace"
+            link="https://www.oaklandpeacecenter.org/"
+            github={false}
           />
           <ImageCard
             src={blogSite} 
@@ -43,13 +43,12 @@ function Portfolio() {
             tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
             link="https://project02blog.herokuapp.com/"
             github="https://github.com/Kerry-Jr/Project02"
-        />
+          />
         </Row>
         
         {/* Link to see more */}
         <Link to='/portfolio'><Button variant="dark" className="Portfolio-button">See More.</Button></Link>
       </Container>
-      
     </div>
   );
 }
