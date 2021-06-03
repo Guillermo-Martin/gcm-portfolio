@@ -62,7 +62,7 @@ function PortfolioPage() {
             title="Planet"
             description="A web application for planning and keeping track of events."
             tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
-            link="https://blooming-atoll-78659.herokuapp.com/"
+            link="https://ucbext-planet.herokuapp.com/"
             github="https://github.com/jngo2013/Planet"
           />
         </Row>

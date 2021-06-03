@@ -2,9 +2,9 @@ import React from 'react';
 import ImageCard from '../ImageCard';
 import { Container, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import blogSite from './../../assets/images/blogSite.png';
 import gameWebsite from './../../assets/images/gameWebsite.png';
 import oaklandPeaceCenter from './../../assets/images/oaklandPeaceCenter.png';
+import planet from "./../../assets/images/planet.png";
 import './styles.css';
 
 function Portfolio() {
@@ -37,12 +37,12 @@ function Portfolio() {
             github={false}
           />
           <ImageCard
-            src={blogSite} 
-            title="Blog Site"
-            description="A web application for posting thoughts, learning new recipes, and facts about Pokemon."
-            tech="HTML, CSS, JavaScript, React, Bootstrap, TravisCI, ESLint, Express, mySQL2, Node.js, and Heroku."
-            link="https://project02blog.herokuapp.com/"
-            github="https://github.com/Kerry-Jr/Project02"
+            src={planet} 
+            title="Planet"
+            description="A full stack Web application for planning events with your friends and family."
+            tech="MongoDB, Express.js, React, Node.js, Semantic UI React, Redux, Mongoose, TravisCI, User Authentication Technologies, and Heroku. ( Note: Use the following guest account to try out the application: Email: testuser@test.com, Password: 1234567 )"
+            link="https://ucbext-planet.herokuapp.com/"
+            github="https://github.com/jngo2013/Planet"
           />
         </Row>
         

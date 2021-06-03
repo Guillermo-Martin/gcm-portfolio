@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import { Container, Row, Button } from 'react-bootstrap';
 import portfolioPic from './../../assets/images/portfolioPic.jpg';
-import resume from './../../assets/documents/Guillermo_Martin_Resume.pdf';
+import resume from './../../assets/documents/Guillermo_Martin_WebDev_Resume.pdf';
 import express from './../../assets/images/expressIcon.png';
 import mySQL from './../../assets/images/mySQLIcon.png';
 import mongoDB from './../../assets/images/mongoDBIcon.png';
